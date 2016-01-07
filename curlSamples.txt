@@ -1,0 +1,290 @@
+1) THIS CURL REQUEST YIELDS THE FOLLOWING RESPONSE
+curl http://simplebits.com > curlSamples.txt
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Handcrafted pixels & text by Dan Cederholm
+">
+
+<title>SimpleBits</title>
+
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+
+<script src="//use.typekit.net/mdv1qzd.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</head>
+
+
+<body>
+
+<div class="content">
+  <header role="banner" class="group">
+  <div id="logo">
+  <a href="/"><img src="/img/logo.png" width="60" /></a>
+</div>
+
+  <a href="#" class="menu"><img src="/img/icon-hamburger.png" width="31" class="menu-img" /></a>
+
+  <nav role="navigation">
+    <ul>
+      <li class="active"><a href="/">HOME</a></li>
+      <li><a href="/archive">ARCHIVE</a></li>
+      <li><a href="https://dribbble.com/simplebits">WORK</a></li>
+      <li><a href="/books">BOOKS</a></li>
+      <li><a href="/about">ABOUT</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <div class="content-inner">
+    <div class="home">
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Mar 23, 2015</p>
+          <h2><a href="/2015/03/23/15-made-by.html">Made By</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>Just last week, <a href="https://twitter.com/naysannaraqi">Naysan Naraqi</a> and <a href="https://twitter.com/joshjanssen">Josh Janssen</a> from <a href="https://dribbble.com/envato">Envato</a> visited me here in Salem, Mass. to make a short video for their <cite>Made by</cite> series. Miracuosly, they edited down my babbling into a coherent narrative. There’s even some banjo playing and a quick Salem walking tour thrown in.</p>
+
+<div class="video-large">
+  <iframe src="https://www.youtube.com/embed/Au87oAJ2jeE" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>It was especially great to meet Naysan and Josh, two of the nicest guys you’ll find. They’re traveling around the world, from their Melbourne, Australia homebase, filming videos of creative people.</p>
+
+<p>And as a bonus, they’ve also posted two additional short snippets from the shoot:</p>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=XLRdmM9vudg">Dan Cederholm on discovering web design</a></li>
+  <li><a href="https://www.youtube.com/watch?v=LgvseYYhqU0">Dan Cederholm shares a Photoshop tip</a></li>
+</ul>
+
+<p>Thanks very much to Envato for featuring me.</p>
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Feb 25, 2015</p>
+          <h2><a href="/books/2015/02/25/2e.html">Second Edition</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>Five years ago, Mandy, Jeffrey, and Jason launched a little publishing imprint called <a href="http://abookapart.com">A Book Apart</a>. It focused on very specific topics for folks that build websites for fun and profit. The books were short and to the point. They paid their authors unheard of royalties compared to other publishers. There was much rejoicing.</p>
+
+<p>It was a damn honor to write the second book they released, <a href="http://www.abookapart.com/products/css3-for-web-designers">CSS3 For Web Designers</a>. At the time, I’d been doing a fair amount of speaking on CSS3, really embracing it for enhancing the <em>experience layer</em> of the interfaces we’d been building. Browsers didn’t have to support it all. It was (and is) progressive enhancement at its very best.</p>
+
+<div class="photo">
+  <img src="/img/post/css3fwd-2e.jpg" />
+
+  
+</div>
+
+<p>People bought the book and some of them even enjoyed it or at least said and wrote that they did. But after 5 years, it was time to give it a bit of a polish. So we did just that, and with the help of Rachel Andrew (tech editing) and Katel LeDû (managing editor) and the rest of the wonderful team at <em>A Book Apart</em>, a Second Edition has been written, edited, printed, and shipped. It’s <a href="http://www.abookapart.com/products/css3-for-web-designers">in stock and available</a> today.</p>
+
+<p>Like other editions I’ve written for previous books, this wasn’t a complete rewrite, but rather a refresh to bring things up to date, as well as adding a brand new chapter. Here’s what’s new, from the intro inside the book itself …</p>
+
+<h3 id="about-the-second-edition">About the Second Edition</h3>
+
+<p>A lot has progressed since the initial pressing of this little green book. All good things! Many of the CSS3 properties discussed now have wider browser support, which means you can feel even more confident putting them to use. Several new properties have emerged! The economy is looking—wait.</p>
+
+<p>In this second edition, I’ve tightened up the existing text and brought things up to present day. I’ve also removed some old hacks that are no longer necessary. There’s never been a better time to dive in and start using CSS3.</p>
+
+<p>Additionally, a new chapter was added at the end of the book that covers <em>micro</em> layouts. While we wait patiently for a truly cross-browser layout system, work carries on. Fortunately, new specifications such as <strong>flexbox</strong> and <strong>multi-column layout</strong> are usable today, when applied to smaller components of the overall design. We’ll introduce utilizing those options that will then become extra tools in your CSS3 toolbox.</p>
+
+<div class="photo">
+  <img src="/img/post/micro-layouts.jpg" />
+
+  
+</div>
+
+<p>I hope you enjoy this updated version of what was a very fun book to write, and I look forward to the myriad of ways you’ll use CSS3 creatively. Onward!</p>
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Jan 21, 2015</p>
+          <h2><a href="/2015/01/21/the-lift.html">The Lift</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>My favorite part of snowboarding is the lift. That time spent on the chair, heading up a mountain. It can start off chaotically: Skiers and riders shuffling through a long line, the chair whipping around the corner and scooping you up. And then off you go.</p>
+
+<p>It gets <em>really quiet</em>. Eventually, just the sound of the cable running over each tower, boards and skis scraping snow down below. I don’t meditate (and really should) but this works just as well.</p>
+
+<div class="photo">
+  <img src="/img/post/jaypeak.jpg" />
+
+  
+    <p>Aboard the Flyer chair toward another world at Jay Peak, Vermont.</p>
+  
+</div>
+
+<p>It can also be transformative. Clear, calm and warm at the base can slowly turn into a white-out, high-wind, freezing maelstrom at the summit. <em>Maelstrom</em>. There’s a word I need to utilize more [Ed: Maelstrom actually means a large, swirling body of water. So, poor choice here.] Anyway, that near-instant change in environment is downright magical. It can shift drastically between runs. And that’s okay—exciting, even.</p>
+
+<p>I grew up in Vermont and never skied. Which is a bit like growing up in Hawaii and never surfing. Or growing up in Antarctica and never ice fishing. Has anyone ever grown up in Antartica? I picture it more of a place one can only visit. Anyway, hockey took up most of my time during the long winters of my childhood, so all of this is new to me. Having just started snowboarding a little over a year ago, I’m proof that it’s never too late to get out there.</p>
+
+<p>Even if for the chair ride up alone.</p>
+
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="post-full">
+      <div class="post">
+        <header>
+          <p class="date">Jan 3, 2015</p>
+          <h2><a href="/2015/01/03/static.html">Hyper Static Text</a></h2>
+        </header>
+
+        <div class="post-content drop">
+          <p>I am not big on resolutions, but like many of you, I’d sure like to write more this year. Writing was the single biggest factor in helping my career, and it’s led me to start new projects, find new interests, helped solved problems, etc. I’m a horrible note-taker, and far too many thoughts and ideas permenantly live in my mind. Which doesn’t scale—especially for someone at my age.</p>
+
+<p>So I’m writing this now. I’m writing it in a plain ol’ text editor using Markdown. I’ll save this file and with a quick command line, it’ll sync with my code on GitHub and be published to my webserver as a <a href="http://jekyllrb.com">static HTML</a> file. I’m going back to basics. Hypertext.</p>
+
+<blockquote>
+  <p>“Getting back to basics feels good … Just me and as many blank text files as I can fill up.”</p>
+</blockquote>
+
+<p>And getting back to basics feels good. Less to get in the way. I no longer care if I’m doing things the best possible way, I just care about writing and publishing. Over the last few years I’ve been busy building a <a href="https://dribbble.com">business</a> and rebuilding a life. I’d love to share more of that here.</p>
+
+<div class="photo">
+  <img src="/img/post/typecase.jpg" />
+
+  
+    <p>Basic publishing tools at EM Letterpress in New Bedford, Mass.</p>
+  
+</div>
+
+<p>Thanks for reading, whomever you are. There are no comments here. No accounts, no stats. Just me and as many blank text files as I can fill up. We’ll see how it goes this time around. If you’re looking for old stuff (1999–2014), links to that archived content should still work. They’ll just forward to vault.simplebits.com.</p>
+
+
+          <p class="end">&bull;</p>
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+<!-- pagination links -->
+<!--<div class="page">
+  
+  
+</div>-->
+
+  </div>
+</div>
+
+<div class="extra">
+  <div class="thedeck target">
+    <h3><a href="http://decknetwork.net">Ads by The Deck</a></h3>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <h2><a href="/" class="footer-logo">SimpleBits</a></h2>
+
+  <h3 class="footer-heading">Handcrafted pixels &amp; text</h3>
+
+  <p>Copyright &copy; 1999-2015, SimpleBits LLC. Shipped from Salem, Mass. Hosted by <a href="http://www.mediatemple.net#a_aid=4e25d772bca21">(mt)</a>.</p>
+
+  <ul class="icons">
+    <li><a href="/feed.xml"><img src="/img/icon-rss.png" /></a></li>
+    <li><a href="https://dribbble.com/simplebits"><img src="/img/icon-dribbble.png" /></a></li>
+    <li><a href="http://twitter.com/simplebits"><img src="/img/icon-twitter.png" /></a></li>
+    <li><a href="http://instagram.com/simplebits"><img src="/img/icon-instagram.png" /></a></li>
+    <li><a href="mailto:contact@simplebits.com"><img src="/img/icon-email.png" /></a></li>
+  </ul>
+</footer>
+
+
+<!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.js"></script>
+
+<script>
+/* toggle main nav in small screens */
+$('a.menu').click(
+  function() {
+    $('nav[role="navigation"]').toggle();
+
+    if ($('img.menu-img').attr('src') == '/img/icon-hamburger.png') {
+      $('img.menu-img').attr('src', '/img/icon-x.png');
+    }
+    else {
+      $('img.menu-img').attr('src', '/img/icon-hamburger.png');
+    }
+
+    return false;
+  });
+</script>
+
+<div class="thedeck loading-dock hide">
+<script>
+var $deckAdContainer = $('.thedeck.target');
+if ($deckAdContainer.length) {
+  var id = "DB";
+  var scriptLink = '<script type="text/javascript" src="https://connect.decknetwork.net/deck' + id + '_js.php?' + (new Date().getTime()) + '"></' + 'script>';
+  document.write(scriptLink);
+}
+</script>
+
+<script>
+// Move Deck ad content from loading area to display location
+$deckAdContainer.
+  append($('.thedeck.loading-dock>a')).
+  append($('.thedeck.loading-dock>p'));
+</script>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8023335-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+2) THIS CURL REQUEST YIELDS THE FOLLOWING RESPONSE:
+curl http://google.com/teapot >> curlSamples.txt
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/teapot">here</A>.
+</BODY></HTML>
