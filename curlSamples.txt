@@ -288,3 +288,22 @@ curl http://google.com/teapot >> curlSamples.txt
 The document has moved
 <A HREF="http://www.google.com/teapot">here</A>.
 </BODY></HTML>
+
+
+
+
+
+
+
+
+3) THIS CURL REQUEST YIELDS THE FOLLOWING RESPONSE:
+hmmm works in the browser... 
+curl http://google.ca/starwars >> curlSamples.txt
+
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.ca/starwars">here</A>.
+</BODY></HTML>
