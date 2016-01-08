@@ -279,15 +279,32 @@ pageTracker._trackPageview();
 
 
 
+
+
+
+
+
+
 2) THIS CURL REQUEST YIELDS THE FOLLOWING RESPONSE:
 curl http://www.google.com/teapot >> curlSamples.txt
 
-<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
-<TITLE>301 Moved</TITLE></HEAD><BODY>
-<H1>301 Moved</H1>
-The document has moved
-<A HREF="http://www.google.com/teapot">here</A>.
-</BODY></HTML>
+<!doctype html><html class="google" lang="en"> <script>(function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)</script> <meta charset="utf-8"> <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport"> <title>Error 418 (I&#8217;m a teapot)!?</title> <link href="//www.gstatic.com/teapot/teapot.min.css" rel="stylesheet"> <a href="//www.google.com/"><span aria-label="Google" id="logo"></span></a> <p><b>418.</b> <ins>I&#8217;m a teapot.</ins></p> <p>The requested entity body is short and stout. <ins>Tip me over and pour me out.</ins></p> <div id="teaset"><div id="teabot"></div><div id="teacup"></div></div> <script src="//www.gstatic.com/teapot/teapot.min.js"></script> </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -297,13 +314,1876 @@ The document has moved
 
 
 3) THIS CURL REQUEST YIELDS THE FOLLOWING RESPONSE:
-hmmm works in the browser... 
-curl http://www.google.ca/starwars >> curlSamples.txt
+curl https://www.google.com/starwars >> curlSamples.txt
+
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="google ie9 titles-split" lang="en_us" dir="ltr"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="google titles-split" lang="en_us" dir="ltr"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Awaken the Force within you. Choose a side and your Google apps will follow your path.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Google | Star Wars: Awaken the Force Within">
+    <meta property="og:url" content="https://www.google.com/starwars/">
+    <meta property="og:description" content="Dark side or light side? Choose your side of the Force to transform your Google experience.  #ChooseYourSide">
+    <meta property="og:image" content="https://www.google.com/starwars/static/dd08bdff95a29f413e8e949e514c0944/images/share/fb.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Google | Star Wars: Awaken the Force Within">
+    <meta name="twitter:description" content="Dark side or light side? Choose your side of the Force to transform your Google experience.  #ChooseYourSide">
+    <meta name="twitter:image" content="https://www.google.com/starwars/static/cc6816f814262c2230443bfe1455e292/images/share/tw.png">
+    <link href="https://www.google.com/intl/en/starwars/" hreflang="x-default" rel="alternate">
+    <link href="https://www.google.com/intl/ar/starwars/" hreflang="ar" rel="alternate">
+    <link href="https://www.google.com/intl/ca/starwars/" hreflang="ca" rel="alternate">
+    <link href="https://www.google.com/intl/zh-CN/starwars/" hreflang="zh-hans-cn" rel="alternate">
+    <link href="https://www.google.com/intl/zh-TW/starwars/" hreflang="zh-hant-tw" rel="alternate">
+    <link href="https://www.google.com/intl/cs/starwars/" hreflang="cs" rel="alternate">
+    <link href="https://www.google.com/intl/da/starwars/" hreflang="da" rel="alternate">
+    <link href="https://www.google.com/intl/nl/starwars/" hreflang="nl" rel="alternate">
+    <link href="https://www.google.com/intl/en-GB/starwars/" hreflang="en-gb" rel="alternate">
+    <link href="https://www.google.com/starwars/" hreflang="en-us" rel="alternate">
+    <link href="https://www.google.com/intl/fi/starwars/" hreflang="fi" rel="alternate">
+    <link href="https://www.google.com/intl/fr/starwars/" hreflang="fr" rel="alternate">
+    <link href="https://www.google.com/intl/fr_ca/starwars/" hreflang="fr-ca" rel="alternate">
+    <link href="https://www.google.com/intl/de/starwars/" hreflang="de" rel="alternate">
+    <link href="https://www.google.com/intl/el/starwars/" hreflang="el" rel="alternate">
+    <link href="https://www.google.com/intl/iw/starwars/" hreflang="he-il" rel="alternate">
+    <link href="https://www.google.com/intl/hi/starwars/" hreflang="hi" rel="alternate">
+    <link href="https://www.google.com/intl/hu/starwars/" hreflang="hu" rel="alternate">
+    <link href="https://www.google.com/intl/id/starwars/" hreflang="id" rel="alternate">
+    <link href="https://www.google.com/intl/it/starwars/" hreflang="it" rel="alternate">
+    <link href="https://www.google.com/intl/ja/starwars/" hreflang="ja" rel="alternate">
+    <link href="https://www.google.com/intl/ko/starwars/" hreflang="ko" rel="alternate">
+    <link href="https://www.google.com/intl/lv/starwars/" hreflang="lv" rel="alternate">
+    <link href="https://www.google.com/intl/no/starwars/" hreflang="nb-no" rel="alternate">
+    <link href="https://www.google.com/intl/pl/starwars/" hreflang="pl" rel="alternate">
+    <link href="https://www.google.com/intl/pt-BR/starwars/" hreflang="pt-br" rel="alternate">
+    <link href="https://www.google.com/intl/pt-PT/starwars/" hreflang="pt-pt" rel="alternate">
+    <link href="https://www.google.com/intl/ro/starwars/" hreflang="ro" rel="alternate">
+    <link href="https://www.google.com/intl/ru/starwars/" hreflang="ru" rel="alternate">
+    <link href="https://www.google.com/intl/es/starwars/" hreflang="es" rel="alternate">
+    <link href="https://www.google.com/intl/es-419/starwars/" hreflang="es-419" rel="alternate">
+    <link href="https://www.google.com/intl/sv/starwars/" hreflang="sv" rel="alternate">
+    <link href="https://www.google.com/intl/th/starwars/" hreflang="th" rel="alternate">
+    <link href="https://www.google.com/intl/tr/starwars/" hreflang="tr" rel="alternate">
+    <title>Awaken the Force Within</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/starwars/static/174fed14929ed4c97d6f10f69a3a6690/images/fav/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/starwars/static/3d49f7d53a1ea9452a48b3a8e48f60b3/images/fav/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/starwars/static/8b17b28bf16878dd71e3bd1292b248d3/images/fav/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/starwars/static/986a5f51f4a9a2dbe242604fc8d856bc/images/fav/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/starwars/static/0e416652c9de75fb2eb6a7a927a56b82/images/fav/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/starwars/static/80a3f48c5b5a8a1e4947b24ece7a1910/images/fav/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/starwars/static/306435f69a75cffbfe33f84edbdf014f/images/fav/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/starwars/static/fcb710420f18ac6435f04a8317a2c4e7/images/fav/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/starwars/static/9f1af51deb896575c90d61166e293f23/images/fav/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/starwars/static/6cccc8bf029d91afe8f0f93fefff4184/images/fav/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/starwars/static/a99569f04c60bff4d8c16779b08ad0ad/images/fav/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/starwars/static/1f91f67573cc98296c598f2f8b40d2c5/images/fav/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/starwars/static/4dcffeec77ab262bfe51783ed3cfa0f0/images/fav/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/starwars/static/26caf20591a0fb11a1c4718f28ed9245/images/fav/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/starwars/manifest.json">
+    <link rel="mask-icon" href="/starwars/static/783d82cfa7ad3e034a7684fbad5d1a8f/images/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/starwars/static/820247d248ce3debf19d2dfa5848d8db/images/fav/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="/starwars/static/0ca37bf4964060a693be69043d1b028e/images/fav/mstile-144x144.png">
+    <meta name="msapplication-config" content="/starwars/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">    <style>
+body{background:#000}body.page--home:not(.app--loaded){height:100%;overflow:hidden}body.page--home:not(.app--render-content) main.content,body.page--home:not(.app--render-content) footer{display:none}.app--loaded{overflow:visible}.app__loader{-webkit-align-items:center;-ms-flex-align:center;align-items:center;background:#000;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;left:0;position:absolute;top:0;transition:opacity .3s;width:100%;z-index:9999}.app__loader--out{opacity:0}@-webkit-keyframes mask-up{0%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}100%{-webkit-transform:translate3d(0, -200px, 0);transform:translate3d(0, -200px, 0)}}@keyframes mask-up{0%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}100%{-webkit-transform:translate3d(0, -200px, 0);transform:translate3d(0, -200px, 0)}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes spinner-fadein{from{opacity:0}to{opacity:1}}@keyframes spinner-fadein{from{opacity:0}to{opacity:1}}.loader__mask{-webkit-animation-delay:1s;animation-delay:1s;-webkit-animation-duration:4s;animation-duration:4s;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-name:mask-up;animation-name:mask-up;-webkit-animation-timing-function:ease;animation-timing-function:ease;background-color:#000;border-radius:50%;box-shadow:0 0 80px 20px #000;display:block;height:200px;left:50%;margin-top:-100px;position:absolute;top:50%;width:200px}.loader__mask--left{margin-left:-160px}.loader__mask--right{margin-left:-25px}.loader__logo{background-repeat:no-repeat;background-size:contain;height:160px;width:196px}.loader__spinner__wrapper{-webkit-animation:spinner-fadein .5s ease 5s forwards;animation:spinner-fadein .5s ease 5s forwards;display:block;left:50%;margin-left:-8px;margin-top:100px;opacity:0;position:absolute;top:50%}.loader__spinner{-webkit-animation:spin 1.2s infinite linear;animation:spin 1.2s infinite linear;background-repeat:no-repeat;background-image:url(data:image/png;base64,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);background-size:25px 25px;height:25px;-webkit-transform:translateZ(0);transform:translateZ(0);width:25px}.header__link:visited{color:#000}[ng-cloak].mask{display:block !important;opacity:0}      .loader__logo {
+        background-image: url(data:image/jpg;base64,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);
+      }
+    </style>
+
+    <script>(function(H){H.className=H.className.replace(/\bgoogle\b/,'google-js')})(document.documentElement)</script>
+    <script src="https://www.google.com/js/google.js"></script>
+    <script>
+
+      var beacon = new Date();
+      var tracker = new gweb.analytics.AutoTrack({
+        profile: 'UA-70079006-1'      });
+    </script>
 
 
-<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
-<TITLE>301 Moved</TITLE></HEAD><BODY>
-<H1>301 Moved</H1>
-The document has moved
-<A HREF="http://www.google.ca/starwars">here</A>.
-</BODY></HTML>
+    <script>
+      document.createElement('picture');
+    </script>
+
+  </head>
+  <body class="page page--home"ng-controller="AppController as app"
+pa-scroll-container
+ng-class="{ 'app--loaded': app.pageIsReadyToShow }"
+trigger-update="(app.user.mode.isLight || app.user.mode.isDark) ? !app.user.isWillingToChange : app.user.isWillingToChange">
+
+
+<header ng-init="animation={}" class="header">
+    <div class="header__ui">
+      <button class="fade-in menu-button"
+              menu
+              opened="app.menuOpened"
+              backdrop-element=".menu__backdrop"
+              pa-class="fade-in"
+              pa-active="animation.slidedDown==='FINISHED' || animation.mobileSlider==='FINISHED' || (app.user.mode && app.user.mode.mode > 0)"
+              ng-cloak>
+        <span class="menu-button__icon">
+          <span class="menu-button__bar"></span>
+          <span class="menu-button__bar"></span>
+          <span class="menu-button__bar"></span>
+        </span>
+      </button>
+    </div>
+
+  <div class="header__content">
+    <h1 class="fade-in header__title"
+        pa-class="fade-in"
+        pa-active="animation.slidedDown==='FINISHED' || animation.mobileSlider==='FINISHED' || (app.user.mode && app.user.mode.mode > 0)"
+        ng-cloak
+        pa-visible="animation.headerVisible">
+      <span class="header__line header__line--left">
+        <span class="line__core line__core--left line__core--small"></span>
+      </span>
+        <span class="title__fragment">Awaken</span>
+        <span class="title__fragment title__fragment--big">The Force</span>
+        <span class="title__fragment">Within</span>
+      <span class="header__line header__line--right">
+        <span class="line__core line__core--right line__core--small"></span>
+      </span>
+    </h1>
+  </div>
+</header>
+
+
+
+<nav class="menu">
+  <div class="menu__backdrop"></div>
+  <div class="menu__content">
+    <div class="menu__title">
+
+<div class="title-with-lines"
+     pa-router
+     pa-animation-name="awakenTheForce"
+     title-intro-animation>
+  <div pa-class="subtitle"
+       pa-animation-name="topTitleSlide">
+    <div class="line">
+      <div class="line__core line__core--left-gradient"
+           pa-class="line__core--right-of"
+           pa-animation-name="topLeftLine"></div>
+    </div>
+      <div class="subtitle__text">Awaken</div>
+    <div class="line">
+      <div class="line__core line__core--right-gradient"
+           pa-class="line__core--left-of"
+           pa-animation-name="topRightLine"></div>
+    </div>
+  </div>
+  <h1 pa-class="title-within"
+      pa-animation-name="titleScale">
+      The Force
+  </h1>
+
+  <div pa-class="subtitle"
+       pa-animation-name="bottomTitleSlide">
+    <div class="line">
+      <div class="line__core line__core--left-gradient"
+           pa-class="line__core--right-of"
+           pa-animation-name="bottomLeftLine"></div>
+    </div>
+      <div class="subtitle__text">Within</div>
+    <div class="line">
+      <div class="line__core line__core--right-gradient"
+           pa-class="line__core--left-of"
+           pa-animation-name="bottomRightLine"></div>
+    </div>
+  </div>
+</div>    </div>
+    <ul class="menu__items">
+      <li class="menu__item menu__item--link">
+        <a href="/starwars/faq/" class="menu__item-content"
+           target="_blank" data-g-event="link-click" data-g-action="/faq/" data-g-label="menu">
+          <span class="item__title">FAQ</span>
+        </a>
+      </li>
+      <li class="menu__item menu__item--language-selector">
+        <div class="styled-select__wrapper">
+          <select name="language" language-selector id="language" class="menu__item-content styled-select" aria-label="Choose Language" data-ga-label="menu">
+      <option value="/intl/ar/starwars/">
+        العربية
+      </option>
+      <option value="/intl/zh-CN/starwars/">
+        中文 (简体中文, 中国)
+      </option>
+      <option value="/intl/zh-TW/starwars/">
+        中文 (繁體中文, 台灣)
+      </option>
+      <option value="/intl/cs/starwars/">
+        čeština
+      </option>
+      <option value="/intl/da/starwars/">
+        dansk
+      </option>
+      <option value="/intl/nl/starwars/">
+        Nederlands
+      </option>
+      <option value="/intl/en-GB/starwars/">
+        English (United Kingdom)
+      </option>
+      <option value="/intl/en/starwars/" selected>
+        English (United States)
+      </option>
+      <option value="/intl/fi/starwars/">
+        suomi
+      </option>
+      <option value="/intl/fr/starwars/">
+        français
+      </option>
+      <option value="/intl/fr_ca/starwars/">
+        français (Canada)
+      </option>
+      <option value="/intl/de/starwars/">
+        Deutsch
+      </option>
+      <option value="/intl/el/starwars/">
+        Ελληνικά
+      </option>
+      <option value="/intl/iw/starwars/">
+        עברית (ישראל)
+      </option>
+      <option value="/intl/hi/starwars/">
+        हिन्दी
+      </option>
+      <option value="/intl/hu/starwars/">
+        magyar
+      </option>
+      <option value="/intl/id/starwars/">
+        Bahasa Indonesia
+      </option>
+      <option value="/intl/it/starwars/">
+        italiano
+      </option>
+      <option value="/intl/ja/starwars/">
+        日本語
+      </option>
+      <option value="/intl/ko/starwars/">
+        한국어
+      </option>
+      <option value="/intl/lv/starwars/">
+        latviešu
+      </option>
+      <option value="/intl/no/starwars/">
+        norsk bokmål (Norge)
+      </option>
+      <option value="/intl/pl/starwars/">
+        polski
+      </option>
+      <option value="/intl/pt-BR/starwars/">
+        português (Brasil)
+      </option>
+      <option value="/intl/pt-PT/starwars/">
+        português (Portugal)
+      </option>
+      <option value="/intl/ro/starwars/">
+        română
+      </option>
+      <option value="/intl/ru/starwars/">
+        русский
+      </option>
+      <option value="/intl/es/starwars/">
+        español
+      </option>
+      <option value="/intl/es-419/starwars/">
+        español (Latinoamérica)
+      </option>
+      <option value="/intl/sv/starwars/">
+        svenska
+      </option>
+      <option value="/intl/th/starwars/">
+        ไทย
+      </option>
+      <option value="/intl/tr/starwars/">
+        Türkçe
+      </option>
+</select>
+
+        </div>
+      </li>
+    </ul>
+    <div class="menu__share">
+      <ul class="share">
+    <li class="share__element share__element--big share--gplus">
+      <a href="#" share="gplus" title="Share on Google+" data-g-event="social" data-g-action="share-intent:gplus" data-g-label="menu">
+<svg xmlns="http://www.w3.org/2000/svg" width="25.73" height="16" viewBox="302.21 393.45 25.73 16"><path fill="#FFF" d="M325.058 397.558h-2.163v2.883h-2.883v2.02h2.883v2.883h2.163v-2.883h2.883v-2.09h-2.882v-2.812zm-14.848 2.234v3.243h4.325c-.29 1.874-1.946 3.243-4.325 3.243-2.595 0-4.756-2.234-4.756-4.83 0-2.593 2.09-4.827 4.756-4.827 1.226 0 2.234.36 3.1 1.226l2.307-2.306c-1.442-1.297-3.244-2.09-5.406-2.09-4.395 0-8 3.604-8 8s3.605 8 8 8c4.686 0 7.713-3.314 7.713-7.855 0-.576-.072-1.225-.144-1.802h-7.57z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--facebook">
+      <a href="#" share="facebook" title="Share on Facebook" data-g-event="social" data-g-action="share-intent:facebook" data-g-label="menu">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.31" height="16" viewBox="301.845 388 8.31 16"><path fill="#FFF" d="M307.238 404v-7.3h2.45l.367-2.844h-2.817v-1.815c0-.822.23-1.383 1.41-1.383h1.507v-2.546c-.262-.03-1.153-.11-2.196-.11-2.17 0-3.657 1.325-3.657 3.76v2.1h-2.458v2.844h2.458V404h2.935z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--twitter">
+      <a href="#" share="twitter" title="Share on Twitter" text="app.social.twitter" data-g-event="social" data-g-action="share-intent:twitter" data-g-label="menu">
+<svg xmlns="http://www.w3.org/2000/svg" width="19.69" height="16" viewBox="423.89 491.854 19.69 16"><path fill="#FFF" d="M443.58 493.747c-.725.322-1.502.538-2.32.637.834-.5 1.475-1.29 1.775-2.234-.78.464-1.643.8-2.565.982-.736-.787-1.786-1.277-2.948-1.277-2.23 0-4.04 1.81-4.04 4.04 0 .314.036.623.105.918-3.356-.168-6.333-1.776-8.325-4.22-.348.595-.547 1.29-.547 2.03 0 1.4.713 2.637 1.798 3.362-.664-.02-1.286-.204-1.83-.507v.052c0 1.957 1.39 3.59 3.24 3.96-.34.093-.695.144-1.064.144-.263 0-.516-.027-.763-.073.515 1.605 2.006 2.773 3.772 2.806-1.382 1.084-3.122 1.73-5.017 1.73-.326 0-.647-.02-.964-.056 1.786 1.145 3.908 1.814 6.19 1.814 7.43 0 11.493-6.155 11.493-11.493 0-.176-.005-.348-.014-.522.793-.568 1.48-1.28 2.02-2.09z"/></svg>      </a>
+    </li>
+  </ul>
+    </div>
+    <div class="menu__branding row-layout align-vertical-center">
+      <img class="menu__branding-google" src="//www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_120x44dp.png" srcset="//www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_120x44dp.png 1x, //www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_120x44dp.png 2x" alt="Google logo">
+      <img class="star-wars-logo menu__branding-star-wars" width="116" height="52" src="/starwars/static/images/brand-logos/star-wars-tfa.png" alt="Star Wars The Force Awakens">
+    </div>
+  </div>
+</nav>
+<div class="side-navigation"
+     pa-class="side-navigation"
+     pa-active="animation.slidedDown==='FINISHED' || animation.mobileSlider==='FINISHED' || (app.user.mode && app.user.mode.mode > 0)"
+     ng-class="{'with-header-visible': animation.headerVisible }">
+  <div
+      class="side-navigation__items"
+      section-sizer>
+    <a class="side-navigation__item"
+       href="#home-section"
+       data-g-event="nav"
+       data-g-label="choose-side"
+       scroll-to="home-section"
+       ng-init="sidebar.landing = false"
+       ng-mouseenter="sidebar.landing = true"
+       ng-mouseleave="sidebar.landing = false"
+       ng-class="{'side-navigation__item--active': app.sectionMap.landing || sidebar.landing}">
+       <div aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"><path d="M29.16 30.382c-1.882 1.662-4.03 2.844-6.29 3.552-6.348 1.99-13.573.25-18.268-5.017-6.366-7.142-5.707-18.107 1.47-24.442C13.247-1.86 24.263-1.203 30.63 5.94c6.366 7.142 5.707 18.107-1.47 24.442zm-.367-22.82c-.438-.492-.912-.932-1.398-1.35l-8.09 7.14c-1.173 1.037-3-.6-1.82-1.64l7.907-6.98c-3.7-2.243-8.205-2.76-12.29-1.48-1.94.61-3.784 1.623-5.4 3.05-3.08 2.72-4.763 6.432-4.993 10.23l7.796-6.882c1.173-1.035 3 .6 1.82 1.642L2.92 19.594c-.02.02-.044.022-.066.04.106.706.266 1.406.473 2.096L6.1 19.282c1.174-1.036 3 .6 1.82 1.642l-3.614 3.19c.565 1.122 1.257 2.2 2.133 3.182.244.275.506.53.767.78 2.284-2.015 4.568-4.03 6.852-6.048 1.173-1.036 3 .6 1.82 1.642l-6.76 5.967c.427.294.875.546 1.326.792l14.61-12.898c1.172-1.035 2.998.6 1.818 1.642l-13.96 12.324c1.058.35 2.144.6 3.247.707l5.32-4.696c1.174-1.037 3 .6 1.82 1.64l-3.338 2.947c2.723-.427 5.36-1.592 7.57-3.544 2.734-2.414 4.36-5.61 4.853-8.957l-3.563 3.145c-1.173 1.037-3-.6-1.82-1.64 1.83-1.614 3.657-3.23 5.486-4.843-.244-3.117-1.455-6.182-3.695-8.696zM13.465 8.838c-.453-.41-.58-1.29-.085-1.727l1.94-1.71c.497-.44 1.198-.57 1.733-.086.453.41.58 1.29.085 1.727L15.2 8.754c-.498.44-1.2.568-1.735.085zm-2.87 9.723c-.5.44-1.2.567-1.735.084-.453-.408-.58-1.288-.085-1.726l1.938-1.71c.498-.44 1.2-.567 1.735-.085.453.41.58 1.29.085 1.727l-1.94 1.71z" fill="#FFF"/></svg>       </div>
+       <span class="sr-only">Choose Your Side</span>
+    </a>
+    <a class="side-navigation__item"
+       href="#lse"
+       data-g-event="nav"
+       data-g-label="lse"
+       scroll-to="lse"
+       ng-init="sidebar.saber = false"
+       ng-mouseenter="sidebar.saber = true"
+       ng-mouseleave="sidebar.saber = false"
+       ng-class="{'side-navigation__item--active': app.sectionMap.saber || sidebar.saber}">
+       <div aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path d="M26.764 10.748l-1.34-1.333-1.858 1.848.382.38-1.918 1.906-.452.45-.382-.38-.745.74-1.535-1.526L15.462 9.4l.746-.74-.382-.38 1.41-1.404.96-.953.382.38 1.857-1.848-1.34-1.333L21.97.262l7.67 7.626-2.876 2.86zm-4.138-3.51c-.58-.577-1.518-.577-2.097 0-.185.182-.304.404-.37.637-.144.498-.025 1.055.37 1.447.394.393.954.51 1.455.37.234-.068.457-.186.64-.37.58-.576.58-1.51 0-2.085zm-5.15 7.026l1.537 1.527-.68.677-4.99-4.96.68-.677 3.454 3.433zM7.27 27.467l-.577-.573L2.86 23.08l-.578-.573 9.624-9.57 4.99 4.96-9.626 9.57zM6.693 28.8l-.958.953-5.752-5.72.96-.952 4.792 4.767.958.953z" fill="#FFF"/></svg>      </div>
+      <span class="sr-only">Lightsaber Escape</span>
+    </a>
+    <a class="side-navigation__item"
+       href="#cardboard"
+       data-g-event="nav"
+       data-g-label="cardboard"
+       scroll-to="cardboard"
+       ng-init="sidebar.landing = false"
+       ng-mouseenter="sidebar.cardboard = true"
+       ng-mouseleave="sidebar.cardboard = false"
+       ng-class="{'side-navigation__item--active': app.sectionMap.cardboard || sidebar.cardboard}">
+      <div aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="27.5" height="17.9" viewBox="0 0 27.5 17.9"><style>.st0{fill:#FFFFFF;}</style><path id="Imported-Layers_1_" class="st0" d="M25.8 0H1.7C.8 0 0 .8 0 1.8v14.4c0 1 .8 1.8 1.7 1.8h6.6c.7 0 1.3-.4 1.6-1.1l1.9-4.8c.3-.8 1.1-1.4 2-1.4.9 0 1.7.6 2 1.4l1.9 4.8c.3.6.9 1.1 1.5 1.1h6.6c1 0 1.7-.8 1.7-1.8V1.8c0-1-.8-1.8-1.7-1.8zM7.5 12.1c-1.7 0-3-1.4-3-3.2 0-1.7 1.4-3.2 3-3.2 1.7 0 3 1.4 3 3.2.1 1.8-1.3 3.2-3 3.2zm12.5 0c-1.7 0-3-1.4-3-3.2 0-1.7 1.4-3.2 3-3.2 1.7 0 3 1.4 3 3.2 0 1.8-1.3 3.2-3 3.2z"/></svg>      </div>
+      <span class="sr-only">Jakku Spy</span>
+    </a>
+  </div>
+</div>
+
+  <div class="fader" section-sizer></div>
+  <div class="app__loader" app-loader>
+    <div class="loader__mask loader__mask--left"></div>
+<div class="loader__logo"></div>    <div class="loader__mask loader__mask--right"></div>
+    <div class="loader__spinner__wrapper">
+      <div class="loader__spinner"></div>
+    </div>
+  </div>
+
+  <div class="screen-flash" screen-flash="app.flash.toggle"></div>
+  <main class="content" ng-cloak>
+<div class="sections-wrapper" ng-controller="ChooseYourSide as sideCtrl" id="home-section">
+  <div class="confirmation-router"
+       side-page-switch toggle-change="app.flash.toggle"
+       side="app.user.mode.mode"
+       section-spy
+       section-id="landing"
+       section-map="app.sectionMap"
+       is-willing-to-change="app.user.isWillingToChange">
+    <section class="choose-side--middle">
+
+<div class="section section--centered section--full-height section--slider"
+     section-sizer
+     ng-class="{
+      'section--slider-light' : sideCtrl.slidePositions.light,
+      'section--slider-middle' : sideCtrl.slidePositions.middle,
+      'section--slider-dark' : sideCtrl.slidePositions.dark}">
+<div class="bg-wrapper"
+     parallaxed-element
+     timeline-name="SpaceParallax"
+     speed="0.5">
+  <div class="side-bg side-bg__left">
+    <div class="side-bg__bottom hide-lap-up" preload preload-group="landing" ng-if="app.breakpoints.palm"></div>
+    <div class="side-bg__top" preload preload-group="landing">
+      <div class="light-face" tween="sideCtrl.tweenConfig.lightFace" timeline-name="'LightSideSlide'" preload preload-group="landing"></div>
+      <div class="light-saber" tween="sideCtrl.tweenConfig.lightSaber" timeline-name="'LightSideSlide'" preload preload-group="landing"></div>
+    </div>
+  </div>
+  <div class="side-bg side-bg__right">
+    <div class="side-bg__bottom hide-lap-up" preload preload-group="landing" ng-if="app.breakpoints.palm"></div>
+    <div class="side-bg__top">
+      <div class="dark-face" tween="sideCtrl.tweenConfig.darkFace" timeline-name="'DarkSideSlide'" preload preload-group="landing"></div>
+      <div class="dark-saber" tween="sideCtrl.tweenConfig.darkSaber" timeline-name="'DarkSideSlide'" preload preload-group="landing"></div>
+    </div>
+  </div>
+  <div class="overlay-gradient"></div>
+</div>
+  <div class="section__content"
+       pa-router
+       pa-active="app.pageIsReadyToShow"
+       pa-status="app.animations.landing"
+       pa-disabled="app.disableIntroAnimation"
+       ng-cloak>
+    <div class="login__block fade-in" ng-if="app.shouldBlockInterface()" ng-cloak></div>
+<div class="awaken-title-wrp row-layout align-center">
+
+<div class="title-with-lines"
+     pa-router
+     pa-animation-name="awakenTheForce"
+     title-intro-animation>
+  <div pa-class="subtitle"
+       pa-animation-name="topTitleSlide">
+    <div class="line">
+      <div class="line__core line__core--left-gradient"
+           pa-class="line__core--right-of"
+           pa-animation-name="topLeftLine"></div>
+    </div>
+      <div class="subtitle__text">Awaken</div>
+    <div class="line">
+      <div class="line__core line__core--right-gradient"
+           pa-class="line__core--left-of"
+           pa-animation-name="topRightLine"></div>
+    </div>
+  </div>
+  <h1 pa-class="title-within"
+      pa-animation-name="titleScale">
+      The Force
+  </h1>
+
+  <div pa-class="subtitle"
+       pa-animation-name="bottomTitleSlide">
+    <div class="line">
+      <div class="line__core line__core--left-gradient"
+           pa-class="line__core--right-of"
+           pa-animation-name="bottomLeftLine"></div>
+    </div>
+      <div class="subtitle__text">Within</div>
+    <div class="line">
+      <div class="line__core line__core--right-gradient"
+           pa-class="line__core--left-of"
+           pa-animation-name="bottomRightLine"></div>
+    </div>
+  </div>
+</div></div><div class="side__wrapper center"
+     ng-if="app.breakpoints.palm === false"
+     ng-class="{
+       'disable-pointer-events': !app.disableIntroAnimation && app.animations.sliderHandleIn !== 'FINISHED'
+     }"
+     ng-cloak
+     pa-router
+     pa-animation-name="sliderDesk"
+     slider-intro-animation>
+  <div class="side__intro fade-in"
+       pa-class="fade-in"
+       pa-animation-name="headerFadeIn">
+    <h1 class="side__title">Choose your side</h1>
+      <p ng-if="!(app.user.isWillingToChange && sideCtrl.slidePositions.middle) || sideCtrl.sliderIsDragging">    Drag to transform your Google experience across Gmail, Google Maps, and more. <a href="#integration" class="see-how-link" scroll-to="integration" data-g-event="see-how" data-g-action="click" data-g-label="subtitle">See how</a></p>
+      <p ng-if="app.user.isWillingToChange && sideCtrl.slidePositions.middle && !sideCtrl.sliderIsDragging">Or click below to go back to your regular Google experience.</p>
+  </div>
+  <div class="side__slider"
+       slider="horizontal"
+       name="'sliderLanding'"
+       steps="[0, 50, 100]"
+       stick-to-edges="true"
+       max-stick-gap="80"
+       bidirectional="true"
+       on-progress="sideCtrl.onSliderChange(progress)"
+       disabled="app.user.enabled === false && app.user.logged === true"
+       percent-immediate="sideCtrl.sliderPercent"
+       pa-class="animation"
+       pa-status="app.animations.sliderHandleIn"
+       pa-active="app.animations.landing === 'FINISHED'"
+       update-edges-trigger="app.animations.landing === 'FINISHED' && app.pageIsReadyToShow"
+       ng-class="{
+        'slider--light' : sideCtrl.slidePositions.light,
+        'slider--middle' : sideCtrl.slidePositions.middle,
+        'slider--dark' : sideCtrl.slidePositions.dark,
+        'slider--disabled' : app.user.enabled === false && app.user.logged === true,
+        'slider--unknown' : !sideCtrl.slidePositions.light && !sideCtrl.slidePositions.middle && !sideCtrl.slidePositions.dark}">
+    <div class="side side--light fade-in"
+         pa-class="fade-in"
+         pa-animation-name="lightSide"
+         slider-go-to="0">
+      <div class="side__cage fade-in"
+           pa-class="fade-in"
+           pa-animation-name="lightCageFade" preload="b" preload-group="landing">
+<svg xmlns="http://www.w3.org/2000/svg" width="112.165" height="112.165" viewBox="0 0 112.165 112.165"><path class="octagon__path" fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M56.083 111.082L17.19 94.972 1.084 56.083l16.11-38.89 38.89-16.11 38.89 16.11 16.11 38.89-16.11 38.89z"/></svg>      </div>
+      <div class="slide-down">
+        <popup class="side__popup popup--borderless slide-down__core"
+               pa-class="slide-down__core"
+               pa-animation-name="lightPopupSlide"
+               pa-status="animation.slidedDown"
+               on-click="sideCtrl.slidePositions.light && sideCtrl.chooseSide(app.USER_STATES.LIGHT)"
+               is-enabled="sideCtrl.slidePositions.light"
+               text="sideCtrl.getSideText('light')"></popup>
+      </div>
+    </div>
+    <div class="line line--left line--side">
+      <div class="line__core line__core--double-left line__core--right-of-appear"
+           pa-class="line__core--right-of-appear"
+           pa-animation-name="leftLineAppear"></div>
+    </div>
+    <div class="side__middle scale-up-with-fade"
+         slider-go-to="50"
+         pa-class="scale-up-with-fade"
+         pa-animation-name="handlerIn" preload="a" preload-group="landing">
+      <div class="side__cage" slider-handler is-dragging="sideCtrl.sliderIsDragging">
+        <svg width="88" height="88" viewBox="0 0 88 88" ng-if="app.user.avatar">
+          <defs>
+            <pattern id="image" height="100%" width="100%"
+                     patternContentUnits="objectBoundingBox"
+                     viewBox="0 0 1 1"
+                     preserveAspectRatio="xMidYMid slice">
+              <image  x="0" y="0" height="1" width="1"
+                      preserveAspectRatio="xMidYMid slice"
+                      xlink:href=""
+                      ng-href="{[ app.user.avatar ]}"></image>
+            </pattern>
+          </defs>
+          <path fill="url(#image)" d="M44 88L12.89 75.112 0 44l12.888-31.112L44 0l31.113 12.888L88 44 75.113 75.113"/>
+        </svg>
+      </div>
+      <div class="side__middle-under-content">
+
+
+
+
+<div class="login" ng-class="{
+    'login--logged': app.user.logged,
+    'login--unlogged': app.user.logged === false,
+    'login--undecided': app.user.isWillingToChange,
+    'login--disabled': app.user.enabled === false}">
+  <div class="login__content">
+    <div class="login__content--sign-in" ng-if="app.user.logged === false && (!app.breakpoints.palm || sideCtrl.slidePositions.middle)" ng-cloak>
+      <a href="https://accounts.google.com/ServiceLogin?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="sign-in" data-g-action="click" data-g-label="slider">
+        <popup class="side__popup" transparent="true" text="{ text: &#34;Sign in&#34; }"></popup>
+      </a>
+    </div>
+    <div class="login__content--opt-out fade-in"
+         ng-if="app.user.isWillingToChange">
+      <popup class="side__popup"
+             data-g-event="slider"
+             data-g-action="click"
+             data-g-label="back-to-default"
+             ng-hide="!sideCtrl.slidePositions.middle || sideCtrl.sliderIsDragging"
+             transparent="true"
+             on-click="sideCtrl.chooseSide()"
+             text="{ text: &#34;Back to default&#34; }"></popup>
+    </div>
+    <div class="login__content--sign-up" ng-if="app.user.logged === false" ng-cloak>
+        <p>    Don't have a Gmail account? <a href="https://accounts.google.com/SignUp?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" data-g-event="sign-up" data-g-action="click" data-g-label="slider">Sign Up</a></p>
+    </div>
+    <div class="login__content--user-details" ng-if="app.user.logged === true && app.user.enabled === true" ng-cloak>
+      <p class="login__content--user-name" ng-bind="app.user.name"></p>
+      <p ng-bind="app.user.email"></p>
+      <p><a href="https://accounts.google.com/AccountChooser?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="slider" data-g-action="click" data-g-label="change-account">Change account</a></p>
+    </div>
+    <div class="login__content--error" ng-if="app.user.enabled === false" ng-cloak>
+      <p>Please sign in with a Gmail account to enable this experience.</p>
+    </div>
+    <div ng-if="app.user.logged === true && app.user.enabled === false" ng-cloak>
+      <div class="login__content--change-account">
+        <a href="https://accounts.google.com/AccountChooser?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="slider" data-g-action="click" data-g-label="change-account">
+          <popup class="side__popup" transparent="true" text="{ text: &#34;Change account&#34;}"></popup>
+        </a>
+      </div>
+      <div class="login__content--sign-up">
+        <p>    Don't have a Gmail account? <a href="https://accounts.google.com/SignUp?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" data-g-event="sign-up" data-g-action="click" data-g-label="slider">Sign Up</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="login__disclaimer" ng-if="app.user.logged === true && app.user.enabled === false" ng-cloak>
+    Note, this experience is not available for Google Apps for Work, Education, or Government accounts.
+  </div>
+</div>      </div>
+    </div>
+    <div class="line line--right line--side">
+      <div class="line__core line__core--double-right line__core--left-of-appear"
+           pa-class="line__core--left-of-appear"
+           pa-animation-name="rightLineAppear"></div>
+    </div>
+    <div class="side side--dark" slider-go-to="100" pa-class="fade-in" pa-animation-name="darkSide">
+      <div class="side__cage fade-in"
+           pa-class="fade-in"
+           pa-animation-name="darkCageFade">
+<svg xmlns="http://www.w3.org/2000/svg" width="112.165" height="112.165" viewBox="0 0 112.165 112.165"><path class="octagon__path" fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M56.083 111.082L17.19 94.972 1.084 56.083l16.11-38.89 38.89-16.11 38.89 16.11 16.11 38.89-16.11 38.89z"/></svg>      </div>
+      <div class="slide-down">
+        <popup class="side__popup popup--borderless slide-down__core"
+              pa-class="slide-down__core"
+              pa-animation-name="darkPopupSlide"
+              on-click="sideCtrl.slidePositions.dark && sideCtrl.chooseSide(app.USER_STATES.DARK)"
+              is-enabled='sideCtrl.slidePositions.dark'
+              text="sideCtrl.getSideText('dark')"></popup>
+      </div>
+    </div>
+  </div>
+</div><div class="side__wrapper center"
+     pa-router
+     pa-animation-name="sliderMob"
+     pa-status="animation.mobileSlider"
+     ng-if="app.breakpoints.palm === true"
+     ng-hide="app.user.mode.mode > 0 && !app.user.isWillingToChange"
+     ng-cloak
+     slider-intro-animation>
+  <div class="fade-in"
+       pa-class="fade-in"
+       pa-animation-name="headerFadeIn">
+    <h1 class="side__title">Choose your side</h1>
+    <p ng-if="!(app.user.isWillingToChange && sideCtrl.slidePositions.middle)">    Transform your experience across Gmail, Google Maps, and more. <a href="#integration" class="see-how-link" scroll-to="integration" data-g-event="see-how" data-g-action="click" data-g-label="subtitle">See how</a></p>
+    <p ng-if="app.user.isWillingToChange && sideCtrl.slidePositions.middle">Or tap below to go back to your regular Google experience.</p>
+  </div>
+  <div class="side__slider"
+       disabled="app.user.enabled === false && app.user.logged === true"
+       pa-class="animation"
+       pa-active="app.animations.landing === 'FINISHED'"
+       ng-class="{
+        'slider--disabled' : app.user.enabled === false && app.user.logged === true,
+        'slider--middle' : sideCtrl.slidePositions.middle,}">
+    <div class="side side--light">
+      <div class="side__cage fade-in"
+           pa-class="fade-in"
+           pa-animation-name="lightCageFade"
+           ng-click="sideCtrl.setSlidePosition('light')">
+        <span class="side__cage--title">Light side</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="112.165" height="112.165" viewBox="0 0 112.165 112.165"><path class="octagon__path" fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M56.083 111.082L17.19 94.972 1.084 56.083l16.11-38.89 38.89-16.11 38.89 16.11 16.11 38.89-16.11 38.89z"/></svg>      </div>
+    </div>
+    <div class="line line--left line--side">
+      <div class="line__core line__core--right-of-appear"
+           pa-class="line__core--right-of-appear"
+           pa-animation-name="leftLineAppear"></div>
+    </div>
+    <div class="side__middle scale-up-with-fade"
+         pa-class="scale-up-with-fade"
+         pa-animation-name="handlerIn">
+      <div class="side__middle-above-content fade-in"
+           pa-class="fade-in"
+           pa-animation-name="middleAboveContentFade">
+        <div class="side__middle-cta" ng-if="app.user.enabled">
+          <p>Tap to choose</p>
+        </div>
+        <div class="side__middle-change">
+          <button class="link-button" ng-click="sideCtrl.setSlidePosition('middle')" data-g-event="slider" data-g-action="click" data-g-label="change-side-before-confirm">Change side</button>
+        </div>
+      </div>
+      <div class="side__cage">
+        <svg width="88" height="88" viewBox="0 0 88 88" ng-if="app.user.avatar">
+          <defs>
+            <pattern id="image" height="100%" width="100%"
+                     patternContentUnits="objectBoundingBox"
+                     viewBox="0 0 1 1"
+                     preserveAspectRatio="xMidYMid slice">
+              <image  x="0" y="0" height="1" width="1"
+                      preserveAspectRatio="xMidYMid slice"
+                      xlink:href=""
+                      ng-href="{[ app.user.avatar ]}"></image>
+            </pattern>
+          </defs>
+          <path fill="url(#image)" d="M44 88L12.89 75.112 0 44l12.888-31.112L44 0l31.113 12.888L88 44 75.113 75.113"/>
+        </svg>
+      </div>
+      <div class="slide-down">
+        <popup class="side__popup side__popup-light popup--borderless"
+               on-click="sideCtrl.chooseSide(app.USER_STATES.LIGHT)"
+               ng-if="sideCtrl.slidePositions.light"
+               text="sideCtrl.getSideText('light')"></popup>
+        <popup class="side__popup side__popup-dark popup--borderless"
+               on-click="sideCtrl.chooseSide(app.USER_STATES.DARK)"
+               ng-if="sideCtrl.slidePositions.dark"
+               text="sideCtrl.getSideText('dark')"></popup>
+      </div>
+      <div class="side__middle-under-content">
+
+
+
+
+<div class="login" ng-class="{
+    'login--logged': app.user.logged,
+    'login--unlogged': app.user.logged === false,
+    'login--undecided': app.user.isWillingToChange,
+    'login--disabled': app.user.enabled === false}">
+  <div class="login__content">
+    <div class="login__content--sign-in" ng-if="app.user.logged === false && (!app.breakpoints.palm || sideCtrl.slidePositions.middle)" ng-cloak>
+      <a href="https://accounts.google.com/ServiceLogin?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="sign-in" data-g-action="click" data-g-label="slider">
+        <popup class="side__popup" transparent="true" text="{ text: &#34;Sign in&#34; }"></popup>
+      </a>
+    </div>
+    <div class="login__content--opt-out fade-in"
+         ng-if="app.user.isWillingToChange">
+      <popup class="side__popup"
+             data-g-event="slider"
+             data-g-action="click"
+             data-g-label="back-to-default"
+             ng-hide="!sideCtrl.slidePositions.middle || sideCtrl.sliderIsDragging"
+             transparent="true"
+             on-click="sideCtrl.chooseSide()"
+             text="{ text: &#34;Back to default&#34; }"></popup>
+    </div>
+    <div class="login__content--sign-up" ng-if="app.user.logged === false" ng-cloak>
+        <p>    Don't have a Gmail account? <a href="https://accounts.google.com/SignUp?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" data-g-event="sign-up" data-g-action="click" data-g-label="slider">Sign Up</a></p>
+    </div>
+    <div class="login__content--user-details" ng-if="app.user.logged === true && app.user.enabled === true" ng-cloak>
+      <p class="login__content--user-name" ng-bind="app.user.name"></p>
+      <p ng-bind="app.user.email"></p>
+      <p><a href="https://accounts.google.com/AccountChooser?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="slider" data-g-action="click" data-g-label="change-account">Change account</a></p>
+    </div>
+    <div class="login__content--error" ng-if="app.user.enabled === false" ng-cloak>
+      <p>Please sign in with a Gmail account to enable this experience.</p>
+    </div>
+    <div ng-if="app.user.logged === true && app.user.enabled === false" ng-cloak>
+      <div class="login__content--change-account">
+        <a href="https://accounts.google.com/AccountChooser?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" session-proxy data-g-event="slider" data-g-action="click" data-g-label="change-account">
+          <popup class="side__popup" transparent="true" text="{ text: &#34;Change account&#34;}"></popup>
+        </a>
+      </div>
+      <div class="login__content--sign-up">
+        <p>    Don't have a Gmail account? <a href="https://accounts.google.com/SignUp?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse" data-g-event="sign-up" data-g-action="click" data-g-label="slider">Sign Up</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="login__disclaimer" ng-if="app.user.logged === true && app.user.enabled === false" ng-cloak>
+    Note, this experience is not available for Google Apps for Work, Education, or Government accounts.
+  </div>
+</div>      </div>
+    </div>
+    <div class="line line--right line--side">
+      <div class="line__core line__core--left-of-appear"
+           pa-class="line__core--left-of-appear"
+           pa-animation-name="rightLineAppear"></div>
+    </div>
+    <div class="side side--dark">
+      <div class="side__cage fade-in"
+           pa-class="fade-in"
+           pa-animation-name="darkCageFade"
+           ng-click="sideCtrl.setSlidePosition('dark')">
+        <span class="side__cage--title">Dark side</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="112.165" height="112.165" viewBox="0 0 112.165 112.165"><path class="octagon__path" fill="none" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" d="M56.083 111.082L17.19 94.972 1.084 56.083l16.11-38.89 38.89-16.11 38.89 16.11 16.11 38.89-16.11 38.89z"/></svg>      </div>
+    </div>
+  </div>
+</div>  </div>
+
+  <div class="section__scroll-prompt fade-in" ng-show="app.user.enabled"
+      ng-if="animation.slidedDown==='FINISHED' || animation.mobileSlider==='FINISHED' || (app.user.mode && app.user.mode.mode > 0)"
+>
+    <button scroll-prompt class="scroll-prompt" scroll-to="integration" data-g-event="carrot-arrow" data-g-action="click" data-g-label="slider">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9"><path id="scroll-arrow" d="M0 2.98L1.996.507l6.012 4.29L14 .508 16 2.98 8 9.006 0 2.98z" fill="#FFF"/></svg>    </button>
+  </div>
+</div><section class="section section--centered section--previews" section-sizer id="integration" tabindex="-1"
+         scroll-tween
+         timeline name="SpaceParallax">
+  <div class="section__content">
+    <div class="devices" pa-router devices-animation pa-animation-name="devicesFade">
+      <div class="devices__tablet-wrp">
+        <img webp-img webp-src="/starwars/static/d8fbecf46697f89e98e1c135ff33b694/images/elements/tablet.webp" img-src="/starwars/static/c29b6c3ab5200e1763d688cb71453114/images/elements/tablet.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="devices__tablet">
+        <div class="devices__tablet-screen">
+          <img webp-img webp-src="/starwars/static/0a739f902270a511f6f444781da1f59b/images/elements/tablet-screen--light.webp" img-src="/starwars/static/ad436911e4966adfbf3efe1edc038e8e/images/elements/tablet-screen--light.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="devices__tablet">
+          <img webp-img webp-src="/starwars/static/d5b239d370806d3d05c7c66cae934d5f/images/elements/tablet-screen--dark.webp" img-src="/starwars/static/286f0db47249a52d2972a646a531f4cb/images/elements/tablet-screen--dark.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="screen--dark screen--rotate">
+        </div>
+      </div>
+      <div class="devices__laptop-wrp">
+        <img webp-img webp-src="/starwars/static/a25785258fa53989e7a77d15cc8daedd/images/elements/laptop.webp" img-src="/starwars/static/556d8f2c0a6e146b9bebb1efb85a43bd/images/elements/laptop.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="devices__laptop">
+        <div class="devices__laptop-screen">
+          <img webp-img webp-src="/starwars/static/73706bac9f2b137defbed9e647d54777/images/elements/laptop-screen--light.webp" img-src="/starwars/static/c8268f660af01651a00913b51461769b/images/elements/laptop-screen--light.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="screen--dark">
+          <img webp-img webp-src="/starwars/static/e03dc06dfc3f75a5bef0cef1812c2a17/images/elements/laptop-screen--dark.webp" img-src="/starwars/static/a1bc8f5b04e38898076189b703d90d08/images/elements/laptop-screen--dark.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="screen--dark screen--rotate">
+        </div>
+      </div>
+      <div class="devices__phone-wrp">
+        <img webp-img webp-src="/starwars/static/cf48b7aa5544bb0628bd69dd0dda2fe4/images/elements/phone.webp" img-src="/starwars/static/6e8c2c58ac71cf1cbdc504d8de4dff2c/images/elements/phone.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="devices__phone">
+        <div class="devices__phone-screen">
+          <img webp-img webp-src="/starwars/static/990d1d9c435c014c5b25d1055c03441c/images/elements/phone-screen--light.webp" img-src="/starwars/static/e946a490e7d0c7dbc600b10b9443f50b/images/elements/phone-screen--light.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+          <img webp-img webp-src="/starwars/static/ef7080a000dbb87a549cf3af1904b310/images/elements/phone-screen--dark.webp" img-src="/starwars/static/f77495ad0ab5a66577ad8c5c29e7faad/images/elements/phone-screen--dark.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="screen--dark screen--rotate">
+        </div>
+      </div>
+    </div>
+    <div class="device-selection__header">Awaken the Force within you. Choose a side and your Google apps will follow your path.</div>
+    <div class="app-icons">
+      <ul class="products">
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--wear" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--calendar" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chrome" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chromecast" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--gmail" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--inbox" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--maps" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--search" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--translate" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--youtube" alt="" role="presentation"/>
+    </li>
+</ul>
+    </div>
+
+    <div class="devices__disclaimer">
+        Works on Android, iPhone®, iPad®, Mac®, Windows® and Chromebook.
+    </div>
+  </div>
+</section>    </section>
+    <section class="choose-side--confirmation" ng-class="{
+     'choose-side--confirmation-light' : app.user.mode.isLight,
+     'choose-side--confirmation-dark' : app.user.mode.isDark }">
+
+<div class="confirmation-wrp--mobile" ng-if="app.breakpoints.palm">
+  <div class="section section--centered section--full-height section--confirmation" section-sizer ng-class="{'section--confirmation-light': app.user.mode.isLight, 'section--confirmation-dark': app.user.mode.isDark }">
+<div class="bg-wrapper bg-wrapper--confirmation"
+     timeline-name="ConfirmationParallax"
+     parallaxed-element
+     speed="0.5">
+  <div class="overlay-gradient"></div>
+  <div class="confirmation__overlay"></div>
+  <div class="confirmation--light" preload preload-group="confirmation-light">
+  </div>
+  <div class="confirmation--dark" preload preload-group="confirmation-dark"></div>
+</div>
+    <div class="section__scroll-prompt fade-in" ng-show="app.user.enabled"
+      ng-if="animation.slidedDown==='FINISHED' || animation.mobileSlider==='FINISHED' || (app.user.mode && app.user.mode.mode > 0)"
+>
+    <button scroll-prompt class="scroll-prompt" scroll-to="integration-mobile" data-g-event="carrot-arrow" data-g-action="click" data-g-label="">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9"><path id="scroll-arrow" d="M0 2.98L1.996.507l6.012 4.29L14 .508 16 2.98 8 9.006 0 2.98z" fill="#FFF"/></svg>    </button>
+  </div>
+    <div class="section__content">
+      <div class="column-layout"
+           profile-picture
+           user-avatar="app.user.avatar"
+           user-side="app.user.mode.mode"
+           composed-avatar="app.composed">
+<div class="summary">
+  <div class="summary__top-line">
+    <div class="line line--left">
+      <div class="line__core line__core--right-of-appear line__core--right-of-appear--hide line__core--left-gradient"></div>
+    </div>
+    <div class="line line--right">
+      <div class="line__core line__core--left-of-appear line__core--left-of-appear--hide line__core--right-gradient"></div>
+    </div>
+  </div>
+  <div class="summary__content">
+      <h2 ng-if="app.user.mode.isLight">You have joined the</h2>
+      <h2 ng-if="app.user.mode.isDark">You have joined the</h2>
+      <h1 ng-if="app.user.mode.isLight">Light Side</h1>
+      <h1 ng-if="app.user.mode.isDark">Dark Side</h1>
+  </div>
+  <div class="summary__bottom-line">
+    <div class="line line--left">
+      <div class="line__core line__core--right-of-appear line__core--right-of-appear--hide line__core--left-gradient"></div>
+    </div>
+    <div ng-if="app.user.mode.isLight" class="summary__bottom-line-logo--light"></div>
+    <div ng-if="app.user.mode.isDark" class="summary__bottom-line-logo--dark"></div>
+    <div class="line line--right">
+      <div class="line__core line__core--left-of-appear line__core--left-of-appear--hide line__core--right-gradient"></div>
+    </div>
+  </div>
+</div>
+<div class="profile-picture"
+     pa-router
+     pa-active="app.pageIsReadyToShow &&
+                !app.user.defaultAvatar &&
+                !app.user.isWillingToChange &&
+                (app.user.mode.isLight || app.user.mode.isDark)"
+     pa-undo="1"
+     profile-picture-animation>
+  <button class="profile__change-image fade-in" aria-label="Change photo" pa-class="fade-in" pa-animation-name="avatar-change">
+    <span class="profile__change-image__label" aria-hidden="true">Change photo</span>
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" role="presentation"/>
+  </button>
+  <div class="profile-picture__avatar-background"
+       ng-style="{ 'background-image': 'url(' + app.user.avatar + ')'}"></div>
+  <div class="profile-picture--changed" pa-class="profile-picture--changed" pa-animation-name="changed-avatar">
+    <div class="profile-picture__background"></div>
+    <input type="file" class="profile__input" profile-picture-switcher="profile__change-image">
+  </div>
+  <div class="profile-picture__prompt fade-in" ng-if="app.user.defaultAvatar">
+    Upload a photo
+    <input type="file" class="profile__input" profile-picture-switcher="profile-picture__prompt">
+  </div>
+</div><popup class="side__popup slide-down__core"
+       transparent="true"
+       on-click="sideCtrl.willingToChange()"
+       text="{ text: &#34;Change side&#34; }"></popup>        <div class="social-mobile">
+          <ul class="share">
+    <li class="share__element share__element--big share--gplus">
+      <a href="#" share="gplus" title="Share on Google+" data-g-event="social" data-g-action="share-intent:gplus" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="25.73" height="16" viewBox="302.21 393.45 25.73 16"><path fill="#FFF" d="M325.058 397.558h-2.163v2.883h-2.883v2.02h2.883v2.883h2.163v-2.883h2.883v-2.09h-2.882v-2.812zm-14.848 2.234v3.243h4.325c-.29 1.874-1.946 3.243-4.325 3.243-2.595 0-4.756-2.234-4.756-4.83 0-2.593 2.09-4.827 4.756-4.827 1.226 0 2.234.36 3.1 1.226l2.307-2.306c-1.442-1.297-3.244-2.09-5.406-2.09-4.395 0-8 3.604-8 8s3.605 8 8 8c4.686 0 7.713-3.314 7.713-7.855 0-.576-.072-1.225-.144-1.802h-7.57z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--facebook">
+      <a href="#" share="facebook" title="Share on Facebook" data-g-event="social" data-g-action="share-intent:facebook" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.31" height="16" viewBox="301.845 388 8.31 16"><path fill="#FFF" d="M307.238 404v-7.3h2.45l.367-2.844h-2.817v-1.815c0-.822.23-1.383 1.41-1.383h1.507v-2.546c-.262-.03-1.153-.11-2.196-.11-2.17 0-3.657 1.325-3.657 3.76v2.1h-2.458v2.844h2.458V404h2.935z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--twitter">
+      <a href="#" share="twitter" title="Share on Twitter" text="app.social.twitter" data-g-event="social" data-g-action="share-intent:twitter" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="19.69" height="16" viewBox="423.89 491.854 19.69 16"><path fill="#FFF" d="M443.58 493.747c-.725.322-1.502.538-2.32.637.834-.5 1.475-1.29 1.775-2.234-.78.464-1.643.8-2.565.982-.736-.787-1.786-1.277-2.948-1.277-2.23 0-4.04 1.81-4.04 4.04 0 .314.036.623.105.918-3.356-.168-6.333-1.776-8.325-4.22-.348.595-.547 1.29-.547 2.03 0 1.4.713 2.637 1.798 3.362-.664-.02-1.286-.204-1.83-.507v.052c0 1.957 1.39 3.59 3.24 3.96-.34.093-.695.144-1.064.144-.263 0-.516-.027-.763-.073.515 1.605 2.006 2.773 3.772 2.806-1.382 1.084-3.122 1.73-5.017 1.73-.326 0-.647-.02-.964-.056 1.786 1.145 3.908 1.814 6.19 1.814 7.43 0 11.493-6.155 11.493-11.493 0-.176-.005-.348-.014-.522.793-.568 1.48-1.28 2.02-2.09z"/></svg>      </a>
+    </li>
+      <li class="share__element share__element--big share--download"
+          ng-if="!app.user.defaultAvatar">
+        <a href="#" title="Download" profile-picture-download="avatar.png" data-g-event="social" data-g-action="avatar-download" data-g-label="confirmation-page">
+<svg width="20" height="22" viewBox="0 0 20 22" xmlns="http://www.w3.org/2000/svg"><title>download</title><g fill="#FFF" fill-rule="evenodd"><path d="M0 20h20v2H0zM4 12.745L5.497 11l4.51 3.028L14.502 11 16 12.745 10 17l-6-4.255z"/><path d="M9 0h2v15H9V0z"/></g></svg>        </a>
+      </li>
+  </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section--centered section--confirmation" ng-class="{'section--confirmation-light': user.side == 'light', 'section--confirmation-dark': user.side == 'dark'}">
+    <div class="section__content">
+<div class="social-mobile" id="integration-mobile" tabindex="-1">
+  <h2 class="social-mobile__explore">Explore</h2>
+  <p>Tap the icons to explore.</p>
+  <div class="social-mobile__apps">
+    <ul class="products">
+    <li class="product" role="presentation">
+        <a href="https://play.google.com/store/apps/details?id=com.disney.starwarshub_goo&amp;hl=en"
+           data-g-event="product-integrations"
+           data-g-action="wear"
+           data-g-label=""
+           product-link
+               android-scheme=""
+               android-store="https://play.google.com/store/apps/details?id=com.disney.starwarshub_goo&amp;hl=en"
+               ios-scheme=""
+               ios-store=""
+           aria-label="Android Wear"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--wear" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Android Wear</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/chromecast/backdrop/?starwars"
+           data-g-event="product-integrations"
+           data-g-action="chromecast"
+           data-g-label=""
+           product-link
+               android-scheme="comgooglecast"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app"
+                 android-package="com.google.android.apps.chromecast.app"
+                 android-host="chromecast.com/"
+               ios-scheme="Chromecast://"
+               ios-store="https://itunes.apple.com/us/app/chromecast/id680819774"
+           aria-label="Chromecast"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chromecast" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Chromecast</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/inbox/"
+           data-g-event="product-integrations"
+           data-g-action="inbox"
+           data-g-label=""
+           product-link
+               android-scheme="mailto"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.inbox"
+                 android-package="com.google.android.apps.inbox"
+               ios-scheme="inbox-gmail://"
+               ios-store="https://itunes.apple.com/us/app/inbox-by-gmail-new-email-app/id905060486"
+           aria-label="Inbox by Gmail"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--inbox" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Inbox by Gmail</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com"
+           data-g-event="product-integrations"
+           data-g-action="search"
+           data-g-label=""
+           product-link
+               android-scheme="agsa"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+                 android-package="com.google.android.googlequicksearchbox"
+                 android-host="search/"
+               ios-scheme="googleapp://"
+               ios-store="https://itunes.apple.com/us/app/google/id284815942"
+           aria-label="Google"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--search" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="http://www.google.com/calendar/about/?utm_source=web&amp;utm_medium=link&amp;utm_campaign=sw"
+           data-g-event="product-integrations"
+           data-g-action="calendar"
+           data-g-label=""
+           product-link
+               android-scheme="https"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.calendar"
+                 android-package="com.google.android.calendar"
+                 android-host="www.google.com/calendar/event/"
+               ios-scheme="comgooglemaps://"
+               ios-store="https://itunes.apple.com/us/app/google-calendar/id909319292"
+           aria-label="Google Calendar"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--calendar" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Calendar</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/maps"
+           data-g-event="product-integrations"
+           data-g-action="maps"
+           data-g-label=""
+           product-link
+               android-scheme="geo"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+                 android-package="com.google.android.apps.maps"
+               ios-scheme="comgooglemaps://"
+               ios-store="https://itunes.apple.com/us/app/google-maps/id585027354"
+           aria-label="Google Maps"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--maps" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Maps</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://translate.google.com/#auto/qab"
+           data-g-event="product-integrations"
+           data-g-action="translate"
+           data-g-label=""
+           product-link
+           aria-label="Google Translate"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--translate" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Translate</span>
+        </a>
+    </li>
+</ul>
+  </div>
+  <p ng-click="app.showMobileIcons = true;">See more on desktop &gt;</p>
+  <div class="social-desktop__apps" ng-show="::app.showMobileIcons">
+    <ul class="products">
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chrome" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--gmail" alt="" role="presentation"/>
+    </li>
+    <li class="product" role="presentation">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--youtube" alt="" role="presentation"/>
+    </li>
+</ul>
+  </div>
+</div>    </div>
+  </div>
+</div>
+<div class="confirmation-wrp--desk" ng-if="app.breakpoints.palm === false">
+  <div class="section section--centered section--full-height section--confirmation" section-sizer ng-class="{'section--confirmation-light': app.user.mode.isLight, 'section--confirmation-dark': app.user.mode.isDark }">
+<div class="bg-wrapper bg-wrapper--confirmation"
+     timeline-name="ConfirmationParallax"
+     parallaxed-element
+     speed="0.5">
+  <div class="overlay-gradient"></div>
+  <div class="confirmation__overlay"></div>
+  <div class="confirmation--light" preload preload-group="confirmation-light">
+  </div>
+  <div class="confirmation--dark" preload preload-group="confirmation-dark"></div>
+</div>
+    <div class="section__content">
+      <div class="column-layout">
+        <div class="confirmation__col confirmation__col--profile"
+             profile-picture
+             user-avatar="app.user.avatar"
+             user-side="app.user.mode.mode"
+             composed-avatar="app.composed">
+
+<div class="profile-picture"
+     pa-router
+     pa-active="app.pageIsReadyToShow &&
+                !app.user.defaultAvatar &&
+                !app.user.isWillingToChange &&
+                (app.user.mode.isLight || app.user.mode.isDark)"
+     pa-undo="1"
+     profile-picture-animation>
+  <button class="profile__change-image fade-in" aria-label="Change photo" pa-class="fade-in" pa-animation-name="avatar-change">
+    <span class="profile__change-image__label" aria-hidden="true">Change photo</span>
+    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" role="presentation"/>
+  </button>
+  <div class="profile-picture__avatar-background"
+       ng-style="{ 'background-image': 'url(' + app.user.avatar + ')'}"></div>
+  <div class="profile-picture--changed" pa-class="profile-picture--changed" pa-animation-name="changed-avatar">
+    <div class="profile-picture__background"></div>
+    <input type="file" class="profile__input" profile-picture-switcher="profile__change-image">
+  </div>
+  <div class="profile-picture__prompt fade-in" ng-if="app.user.defaultAvatar">
+    Upload a photo
+    <input type="file" class="profile__input" profile-picture-switcher="profile-picture__prompt">
+  </div>
+</div><popup class="side__popup slide-down__core"
+       transparent="true"
+       on-click="sideCtrl.willingToChange()"
+       text="{ text: &#34;Change side&#34; }"></popup>          <ul class="share">
+    <li class="share__element share__element--big share--gplus">
+      <a href="#" share="gplus" title="Share on Google+" data-g-event="social" data-g-action="share-intent:gplus" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="25.73" height="16" viewBox="302.21 393.45 25.73 16"><path fill="#FFF" d="M325.058 397.558h-2.163v2.883h-2.883v2.02h2.883v2.883h2.163v-2.883h2.883v-2.09h-2.882v-2.812zm-14.848 2.234v3.243h4.325c-.29 1.874-1.946 3.243-4.325 3.243-2.595 0-4.756-2.234-4.756-4.83 0-2.593 2.09-4.827 4.756-4.827 1.226 0 2.234.36 3.1 1.226l2.307-2.306c-1.442-1.297-3.244-2.09-5.406-2.09-4.395 0-8 3.604-8 8s3.605 8 8 8c4.686 0 7.713-3.314 7.713-7.855 0-.576-.072-1.225-.144-1.802h-7.57z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--facebook">
+      <a href="#" share="facebook" title="Share on Facebook" data-g-event="social" data-g-action="share-intent:facebook" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.31" height="16" viewBox="301.845 388 8.31 16"><path fill="#FFF" d="M307.238 404v-7.3h2.45l.367-2.844h-2.817v-1.815c0-.822.23-1.383 1.41-1.383h1.507v-2.546c-.262-.03-1.153-.11-2.196-.11-2.17 0-3.657 1.325-3.657 3.76v2.1h-2.458v2.844h2.458V404h2.935z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--twitter">
+      <a href="#" share="twitter" title="Share on Twitter" text="app.social.twitter" data-g-event="social" data-g-action="share-intent:twitter" data-g-label="confirmation-page">
+<svg xmlns="http://www.w3.org/2000/svg" width="19.69" height="16" viewBox="423.89 491.854 19.69 16"><path fill="#FFF" d="M443.58 493.747c-.725.322-1.502.538-2.32.637.834-.5 1.475-1.29 1.775-2.234-.78.464-1.643.8-2.565.982-.736-.787-1.786-1.277-2.948-1.277-2.23 0-4.04 1.81-4.04 4.04 0 .314.036.623.105.918-3.356-.168-6.333-1.776-8.325-4.22-.348.595-.547 1.29-.547 2.03 0 1.4.713 2.637 1.798 3.362-.664-.02-1.286-.204-1.83-.507v.052c0 1.957 1.39 3.59 3.24 3.96-.34.093-.695.144-1.064.144-.263 0-.516-.027-.763-.073.515 1.605 2.006 2.773 3.772 2.806-1.382 1.084-3.122 1.73-5.017 1.73-.326 0-.647-.02-.964-.056 1.786 1.145 3.908 1.814 6.19 1.814 7.43 0 11.493-6.155 11.493-11.493 0-.176-.005-.348-.014-.522.793-.568 1.48-1.28 2.02-2.09z"/></svg>      </a>
+    </li>
+      <li class="share__element share__element--big share--download"
+          ng-if="!app.user.defaultAvatar">
+        <a href="#" title="Download" profile-picture-download="avatar.png" data-g-event="social" data-g-action="avatar-download" data-g-label="confirmation-page">
+<svg width="20" height="22" viewBox="0 0 20 22" xmlns="http://www.w3.org/2000/svg"><title>download</title><g fill="#FFF" fill-rule="evenodd"><path d="M0 20h20v2H0zM4 12.745L5.497 11l4.51 3.028L14.502 11 16 12.745 10 17l-6-4.255z"/><path d="M9 0h2v15H9V0z"/></g></svg>        </a>
+      </li>
+  </ul>
+        </div>
+        <div class="confirmation__col confirmation__col--summary">
+<div class="summary">
+  <div class="summary__top-line">
+    <div class="line line--left">
+      <div class="line__core line__core--right-of-appear line__core--right-of-appear--hide line__core--left-gradient"></div>
+    </div>
+    <div class="line line--right">
+      <div class="line__core line__core--left-of-appear line__core--left-of-appear--hide line__core--right-gradient"></div>
+    </div>
+  </div>
+  <div class="summary__content">
+      <h2 ng-if="app.user.mode.isLight">You have joined the</h2>
+      <h2 ng-if="app.user.mode.isDark">You have joined the</h2>
+      <h1 ng-if="app.user.mode.isLight">Light Side</h1>
+      <h1 ng-if="app.user.mode.isDark">Dark Side</h1>
+  </div>
+  <div class="summary__bottom-line">
+    <div class="line line--left">
+      <div class="line__core line__core--right-of-appear line__core--right-of-appear--hide line__core--left-gradient"></div>
+    </div>
+    <div ng-if="app.user.mode.isLight" class="summary__bottom-line-logo--light"></div>
+    <div ng-if="app.user.mode.isDark" class="summary__bottom-line-logo--dark"></div>
+    <div class="line line--right">
+      <div class="line__core line__core--left-of-appear line__core--left-of-appear--hide line__core--right-gradient"></div>
+    </div>
+  </div>
+</div>          <p class="confirmation__desk-hint">Click the icons to explore.</p>
+          <div class="confirmation__apps--desk"><ul class="products">
+    <li class="product" role="presentation">
+        <a href="https://play.google.com/store/apps/details?id=com.disney.starwarshub_goo&amp;hl=en"
+           data-g-event="product-integrations"
+           data-g-action="wear"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme=""
+               android-store="https://play.google.com/store/apps/details?id=com.disney.starwarshub_goo&amp;hl=en"
+               ios-scheme=""
+               ios-store=""
+           aria-label="Android Wear"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--wear" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Android Wear</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="http://www.google.com/calendar/about/?utm_source=web&amp;utm_medium=link&amp;utm_campaign=sw"
+           data-g-event="product-integrations"
+           data-g-action="calendar"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme="https"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.calendar"
+                 android-package="com.google.android.calendar"
+                 android-host="www.google.com/calendar/event/"
+               ios-scheme="comgooglemaps://"
+               ios-store="https://itunes.apple.com/us/app/google-calendar/id909319292"
+           aria-label="Google Calendar"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--calendar" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Calendar</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://chrome.google.com/webstore/detail/awaken-the-force-within/boeojddkbfhdgnnicgkgogjnbkdljibb?hl=en_US"
+           data-g-event="product-integrations"
+           data-g-action="chrome"
+           data-g-label="confirmation-page"
+           product-link
+           aria-label="Chrome"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chrome" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Chrome</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/chromecast/backdrop/?starwars"
+           data-g-event="product-integrations"
+           data-g-action="chromecast"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme="comgooglecast"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app"
+                 android-package="com.google.android.apps.chromecast.app"
+                 android-host="chromecast.com/"
+               ios-scheme="Chromecast://"
+               ios-store="https://itunes.apple.com/us/app/chromecast/id680819774"
+           aria-label="Chromecast"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--chromecast" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Chromecast</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.gmail.com/"
+           data-g-event="product-integrations"
+           data-g-action="gmail"
+           data-g-label="confirmation-page"
+           product-link
+           aria-label="Gmail"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--gmail" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Gmail</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/inbox/"
+           data-g-event="product-integrations"
+           data-g-action="inbox"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme="mailto"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.inbox"
+                 android-package="com.google.android.apps.inbox"
+               ios-scheme="inbox-gmail://"
+               ios-store="https://itunes.apple.com/us/app/inbox-by-gmail-new-email-app/id905060486"
+           aria-label="Inbox by Gmail"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--inbox" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Inbox by Gmail</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com/maps"
+           data-g-event="product-integrations"
+           data-g-action="maps"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme="geo"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+                 android-package="com.google.android.apps.maps"
+               ios-scheme="comgooglemaps://"
+               ios-store="https://itunes.apple.com/us/app/google-maps/id585027354"
+           aria-label="Google Maps"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--maps" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Maps</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.google.com"
+           data-g-event="product-integrations"
+           data-g-action="search"
+           data-g-label="confirmation-page"
+           product-link
+               android-scheme="agsa"
+               android-store="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+                 android-package="com.google.android.googlequicksearchbox"
+                 android-host="search/"
+               ios-scheme="googleapp://"
+               ios-store="https://itunes.apple.com/us/app/google/id284815942"
+           aria-label="Google"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--search" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://translate.google.com/#auto/qab"
+           data-g-event="product-integrations"
+           data-g-action="translate"
+           data-g-label="confirmation-page"
+           product-link
+           aria-label="Google Translate"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--translate" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">Google Translate</span>
+        </a>
+    </li>
+    <li class="product" role="presentation">
+        <a href="https://www.youtube.com/"
+           data-g-event="product-integrations"
+           data-g-action="youtube"
+           data-g-label="confirmation-page"
+           product-link
+           aria-label="YouTube"
+           target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="product__logo product__logo--youtube" alt="" role="presentation"/>
+          <span class="product__popup" aria-hidden="true">YouTube</span>
+        </a>
+    </li>
+</ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>    </section>
+  </div>
+
+<div class="section section--centered section--side-battle"
+     id="force"
+     ng-controller="SideBattle as sideBattleCtrl"
+     ng-class="{ 'section--side-battle--in':  sideBattleCtrl.animation === 'FINISHED'}">
+  <div class="section__content"
+       pa-router
+       pa-active="sideBattleCtrl.isVisible"
+       pa-status="sideBattleCtrl.animation"
+       pa-visible="sideBattleCtrl.isVisible"
+       balance-animation>
+    <div class="section--side-battle__title">
+      <span class="header__line header__line--left">
+        <span class="line__core line__core--left line__core--small"></span>
+      </span>
+      <h2 class="side-battle__title">The balance of the Force</h2>
+      <span class="header__line header__line--right">
+        <span class="line__core line__core--right line__core--small"></span>
+      </span>
+    </div>
+    <div class="side-battle__meter">
+      <div class="battle__fx__wrapper">
+        <div class="meter__saber__glow meter__saber__glow--light"
+             pa-class="animate"
+             pa-animation-name="saber-glow-light"></div>
+        <div class="meter__saber__glow meter__saber__glow--dark"
+             pa-class="animate"
+             pa-animation-name="saber-glow-dark"></div>
+        <div class="meter__clash__glow"
+             ng-style="{ 'left': sideBattleCtrl.getPercent('dark') + '%' }"
+             pa-class="animate"
+             pa-animation-name="saber-clash"></div>
+      </div>
+      <div class="battle__meter__wrapper row-layout">
+        <div class="meter__side__wrapper meter__side__wrapper--light row-layout align-vertical-center">
+          <span class="meter__side-shadow"></span>
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="meter__side meter__side--light"/>
+        </div>
+        <div class="meter">
+          <div class="meter__saber-wrapper"
+               ng-style="{
+                'transform': 'translateX(' + sideBattleCtrl.getPercent('light') + '%)',
+                '-webkit-transform': 'translateX(' + sideBattleCtrl.getPercent('light') + '%)'
+               }">
+            <div class="meter__saber meter__saber--light"
+                 pa-class="meter__saber"
+                 pa-animation-name="meter-saber-light">
+            </div>
+          </div>
+          <div class="meter__saber-wrapper"
+               ng-style="{
+                 'transform': 'translateX(' + sideBattleCtrl.getPercent('dark') + '%)',
+                 '-webkit-transform': 'translateX(' + sideBattleCtrl.getPercent('dark') + '%)'
+                }">
+            <div class="meter__saber meter__saber--dark"
+                 pa-class="meter__saber"
+                 pa-animation-name="meter-saber-dark">
+            </div>
+          </div>
+          <ul class="meter__divisions" pa-class="fade-in" pa-animation-name="meter-division">
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+            <li class="meter__division"></li>
+          </ul>
+        </div>
+        <div class="meter__side__wrapper meter__side__wrapper--dark row-layout align-vertical-center">
+          <span class="meter__side-shadow"></span>
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="meter__side meter__side--dark"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+<section class="section section--saber section--full-height section--centered"
+         section-sizer
+         section-spy="app.landingSectionActive"
+         section-id="saber"
+         section-map="app.sectionMap"
+         id="lse">
+  <div class="section__bg-wrapper">
+    <div class="section__content column-layout align-items-center" pa-visible="animation.saberReveal">
+      <div class="title-with-lines"
+          pa-router
+          pa-animation-name="awakenTheForce"
+          title-intro-animation>
+       <div pa-class="subtitle"
+            pa-animation-name="topTitleSlide">
+         <div class="line">
+           <div class="line__core line__core--left-gradient"
+                pa-class="line__core--right-of"
+                pa-animation-name="topLeftLine"></div>
+         </div>
+         <div class="subtitle__text">Lightsaber</div>
+         <div class="line">
+           <div class="line__core line__core--right-gradient"
+                pa-class="line__core--left-of"
+                pa-animation-name="topRightLine"></div>
+         </div>
+       </div>
+       <h1 pa-class="title-within"
+           pa-animation-name="titleScale">escape</h1>
+       <div pa-class="subtitle"
+            pa-animation-name="bottomTitleSlide">
+         <div class="line">
+           <div class="line__core line__core--left-gradient"
+                pa-class="line__core--right-of"
+                pa-animation-name="bottomLeftLine"></div>
+         </div>
+         <div class="subtitle__text">AN EXPERIENCE BUILT FOR CHROME</div>
+         <div class="line">
+           <div class="line__core line__core--right-gradient"
+                pa-class="line__core--left-of"
+                pa-animation-name="bottomRightLine"></div>
+         </div>
+       </div>
+      </div>
+      <p class="saber__description">Master your lightsaber to escape the first order</p>
+      <a href="https://lightsaber.withgoogle.com" class="popup popup--transparent" target=&#34;blank&#34; data-g-event=&#34;lse&#34; data-g-label=&#34;begin-escape&#34;>
+      <div class="popup__arrow-top ng-scope" preload></div>
+    <div class="popup__shape popup__shape--left" preload="b"></div>
+    Begin escape
+    <div class="popup__shape popup__shape--right" preload="a"></div>
+  </a>
+    </div>
+  </div>
+  <div pa-router saber-reveal pa-active="animation.saberReveal">
+    <div class="saber__saber-element-wrp" pa-class="saber__saber-element-wrp" pa-animation-name="reveal-hand">
+      <div class="saber__core-wrp">
+        <img webp-img webp-src="/starwars/static/4316db60efb6d8df0a7a52ba37771439/images/elements/saber-core.webp" img-src="/starwars/static/e04e899e09d3ec49119c627f2ca186af/images/elements/saber-core.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="saber__saber-core" pa-class="saber__saber-core" pa-animation-name="saber-core" timeline-name="'SaberReveal'">
+      </div>
+      <img webp-img webp-src="/starwars/static/e5b54b9fc8ea85dc667c5d9223476ea1/images/elements/saber-hand.webp" img-src="/starwars/static/0c314bfe9a078acf46249d08490a368a/images/elements/saber-hand.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="saber__saber-hand" timeline-name="'SaberReveal'">
+      <img webp-img webp-src="/starwars/static/10de3063905d83b41e2bc59dc132b45d/images/elements/saber-bottom.webp" img-src="/starwars/static/71c4c5f2e5cf416339e52179fc2e4ed8/images/elements/saber-bottom.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="saber__saber-bottom" pa-class="saber__saber-bottom" pa-animation-name="saber-bottom" timeline-name="'SaberReveal'">
+    </div>
+  </div>
+</section>
+
+<div class="cardboard-section-wrp">
+  <section class="section section--cardboard section--full-height section--centered"
+           section-spy="app.landingSectionActive"
+           section-id="cardboard"
+           section-map="app.sectionMap"
+           section-sizer
+           id="cardboard"
+           preload
+           preload-group="cardboard">
+    <div class="section__content column-layout align-items-center">
+        <div class="title__wrapper">
+          <div class="title-with-lines">
+            <h1 class="title-within title-within--start">Jakku Spy</h1>
+            <div class="subtitle subtitle--start">
+              <div class="line">
+                <div class="line__core line__core--left-gradient line__core--right-of line__core--right-of--start"></div>
+              </div>
+              <div class="subtitle__text">A Google Cardboard Experience</div>
+              <div class="line">
+                <div class="line__core line__core--right-gradient line__core--left-of line__core--left-of--start"></div>
+              </div>
+            </div>
+          </div>
+          <p class="cardboard__description">Find BB-8 as you explore Jakku in an immersive 360° experience.</p>
+        </div>
+        <div class="cardboard__slider__wrapper" aria-hidden="true">
+          <img webp-img webp-src="/starwars/static/0ab98eb81a0419d2e6e23e86715945dc/images/elements/cardboard--pager.webp" img-src="/starwars/static/0a9d982241244ce0c3ba4ba2601dbc47/images/elements/cardboard--pager.png" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="cardboard__element" preload preload-group="cardboard">
+        </div>
+        <div class="cardboard__download-wrapper">
+          <div class="cardboard__ilm-logo">
+                Created by <span class="sr-only">ILMxLAB</span>
+            <img alt="" src="/starwars/static/images/brand-logos/ilm-x-lab.png"
+                 srcset="/starwars/static/images/brand-logos/ilm-x-lab-2x.png 2x"
+                 preload
+                 preload-group="cardboard" />
+          </div>
+          <p class="cardboard__app-prompt">
+                Get the Cardboard experience by downloading the <span class="no-break">Star Wars</span> app to your smartphone.
+          </p>
+          <div class="cardboard__stores-wrp">
+            <a href="https://play.google.com/store/apps/details?id=com.disney.starwarshub_goo" target="_blank" data-g-event="store-badge" data-g-label="google-play-store">
+              <span class="sr-only">Download the Star Wars app from the Google Play Store</span>
+              <img src="/starwars/static/images/icons/stores/play-store.png" srcset="/starwars/static/images/icons/stores/play-store-2x.png 2x" alt="" preload preload-group="cardboard" role="presentation">
+            </a>
+            <a href="https://itunes.apple.com/us/app/star-wars/id960108075" target="_blank" data-g-event="store-badge" data-g-label="apple-app-store">
+              <span class="sr-only">Download the Star Wars app from the App Store</span>
+              <img src="/starwars/static/images/icons/stores/app-store.png" srcset="/starwars/static/images/icons/stores/app-store-2x.png 2x" alt="" preload preload-group="cardboard" role="presentation">
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+</div>    </div>
+  </main>
+  <div class="toast" toast></div>
+
+
+
+
+
+<footer class="footer mask" ng-cloak>
+  <div class="footer__detail"></div>
+  <div class="footer__content-wrapper">
+    <div class="footer__section footer__section--top hide-lap-up">
+        <div class="footer__share">
+          <ul class="share">
+    <li class="share__element share__element--big share--gplus">
+      <a href="#" share="gplus" title="Share on Google+" data-g-event="social" data-g-action="share-intent:gplus" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="25.73" height="16" viewBox="302.21 393.45 25.73 16"><path fill="#FFF" d="M325.058 397.558h-2.163v2.883h-2.883v2.02h2.883v2.883h2.163v-2.883h2.883v-2.09h-2.882v-2.812zm-14.848 2.234v3.243h4.325c-.29 1.874-1.946 3.243-4.325 3.243-2.595 0-4.756-2.234-4.756-4.83 0-2.593 2.09-4.827 4.756-4.827 1.226 0 2.234.36 3.1 1.226l2.307-2.306c-1.442-1.297-3.244-2.09-5.406-2.09-4.395 0-8 3.604-8 8s3.605 8 8 8c4.686 0 7.713-3.314 7.713-7.855 0-.576-.072-1.225-.144-1.802h-7.57z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--facebook">
+      <a href="#" share="facebook" title="Share on Facebook" data-g-event="social" data-g-action="share-intent:facebook" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.31" height="16" viewBox="301.845 388 8.31 16"><path fill="#FFF" d="M307.238 404v-7.3h2.45l.367-2.844h-2.817v-1.815c0-.822.23-1.383 1.41-1.383h1.507v-2.546c-.262-.03-1.153-.11-2.196-.11-2.17 0-3.657 1.325-3.657 3.76v2.1h-2.458v2.844h2.458V404h2.935z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--twitter">
+      <a href="#" share="twitter" title="Share on Twitter" text="app.social.twitter" data-g-event="social" data-g-action="share-intent:twitter" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="19.69" height="16" viewBox="423.89 491.854 19.69 16"><path fill="#FFF" d="M443.58 493.747c-.725.322-1.502.538-2.32.637.834-.5 1.475-1.29 1.775-2.234-.78.464-1.643.8-2.565.982-.736-.787-1.786-1.277-2.948-1.277-2.23 0-4.04 1.81-4.04 4.04 0 .314.036.623.105.918-3.356-.168-6.333-1.776-8.325-4.22-.348.595-.547 1.29-.547 2.03 0 1.4.713 2.637 1.798 3.362-.664-.02-1.286-.204-1.83-.507v.052c0 1.957 1.39 3.59 3.24 3.96-.34.093-.695.144-1.064.144-.263 0-.516-.027-.763-.073.515 1.605 2.006 2.773 3.772 2.806-1.382 1.084-3.122 1.73-5.017 1.73-.326 0-.647-.02-.964-.056 1.786 1.145 3.908 1.814 6.19 1.814 7.43 0 11.493-6.155 11.493-11.493 0-.176-.005-.348-.014-.522.793-.568 1.48-1.28 2.02-2.09z"/></svg>      </a>
+    </li>
+  </ul>
+        </div>
+
+      <ul class="menu__items">
+          <li class="menu__item menu__item--link menu__item--link--faq">
+            <a href="/starwars/faq/" class="menu__item-content" target="_blank">
+              <span class="item__title">FAQ</span>
+            </a>
+          </li>
+        <li class="menu__item menu__item--link">
+          <a href="https://www.google.com/intl/en/policies/" class="menu__item-content" target="_blank">
+            <span class="item__title">Privacy & Terms</span>
+          </a>
+        </li>
+          <li class="menu__item menu__item--language-selector">
+            <div class="styled-select__wrapper">
+              <select name="language" language-selector id="language" class="menu__item-content styled-select" aria-label="Choose Language" data-ga-label="footer">
+      <option value="/intl/ar/starwars/">
+        العربية
+      </option>
+      <option value="/intl/zh-CN/starwars/">
+        中文 (简体中文, 中国)
+      </option>
+      <option value="/intl/zh-TW/starwars/">
+        中文 (繁體中文, 台灣)
+      </option>
+      <option value="/intl/cs/starwars/">
+        čeština
+      </option>
+      <option value="/intl/da/starwars/">
+        dansk
+      </option>
+      <option value="/intl/nl/starwars/">
+        Nederlands
+      </option>
+      <option value="/intl/en-GB/starwars/">
+        English (United Kingdom)
+      </option>
+      <option value="/intl/en/starwars/" selected>
+        English (United States)
+      </option>
+      <option value="/intl/fi/starwars/">
+        suomi
+      </option>
+      <option value="/intl/fr/starwars/">
+        français
+      </option>
+      <option value="/intl/fr_ca/starwars/">
+        français (Canada)
+      </option>
+      <option value="/intl/de/starwars/">
+        Deutsch
+      </option>
+      <option value="/intl/el/starwars/">
+        Ελληνικά
+      </option>
+      <option value="/intl/iw/starwars/">
+        עברית (ישראל)
+      </option>
+      <option value="/intl/hi/starwars/">
+        हिन्दी
+      </option>
+      <option value="/intl/hu/starwars/">
+        magyar
+      </option>
+      <option value="/intl/id/starwars/">
+        Bahasa Indonesia
+      </option>
+      <option value="/intl/it/starwars/">
+        italiano
+      </option>
+      <option value="/intl/ja/starwars/">
+        日本語
+      </option>
+      <option value="/intl/ko/starwars/">
+        한국어
+      </option>
+      <option value="/intl/lv/starwars/">
+        latviešu
+      </option>
+      <option value="/intl/no/starwars/">
+        norsk bokmål (Norge)
+      </option>
+      <option value="/intl/pl/starwars/">
+        polski
+      </option>
+      <option value="/intl/pt-BR/starwars/">
+        português (Brasil)
+      </option>
+      <option value="/intl/pt-PT/starwars/">
+        português (Portugal)
+      </option>
+      <option value="/intl/ro/starwars/">
+        română
+      </option>
+      <option value="/intl/ru/starwars/">
+        русский
+      </option>
+      <option value="/intl/es/starwars/">
+        español
+      </option>
+      <option value="/intl/es-419/starwars/">
+        español (Latinoamérica)
+      </option>
+      <option value="/intl/sv/starwars/">
+        svenska
+      </option>
+      <option value="/intl/th/starwars/">
+        ไทย
+      </option>
+      <option value="/intl/tr/starwars/">
+        Türkçe
+      </option>
+</select>
+
+            </div>
+          </li>
+      </ul>
+    </div>
+    <div class="footer__section footer__section--top show-flex-lap-up hidden">
+        <div class="footer__column">
+          <div class="angled__select">
+            <select name="language" language-selector id="language" class="menu__item-content styled-select" aria-label="Choose Language" data-ga-label="footer">
+      <option value="/intl/ar/starwars/">
+        العربية
+      </option>
+      <option value="/intl/zh-CN/starwars/">
+        中文 (简体中文, 中国)
+      </option>
+      <option value="/intl/zh-TW/starwars/">
+        中文 (繁體中文, 台灣)
+      </option>
+      <option value="/intl/cs/starwars/">
+        čeština
+      </option>
+      <option value="/intl/da/starwars/">
+        dansk
+      </option>
+      <option value="/intl/nl/starwars/">
+        Nederlands
+      </option>
+      <option value="/intl/en-GB/starwars/">
+        English (United Kingdom)
+      </option>
+      <option value="/intl/en/starwars/" selected>
+        English (United States)
+      </option>
+      <option value="/intl/fi/starwars/">
+        suomi
+      </option>
+      <option value="/intl/fr/starwars/">
+        français
+      </option>
+      <option value="/intl/fr_ca/starwars/">
+        français (Canada)
+      </option>
+      <option value="/intl/de/starwars/">
+        Deutsch
+      </option>
+      <option value="/intl/el/starwars/">
+        Ελληνικά
+      </option>
+      <option value="/intl/iw/starwars/">
+        עברית (ישראל)
+      </option>
+      <option value="/intl/hi/starwars/">
+        हिन्दी
+      </option>
+      <option value="/intl/hu/starwars/">
+        magyar
+      </option>
+      <option value="/intl/id/starwars/">
+        Bahasa Indonesia
+      </option>
+      <option value="/intl/it/starwars/">
+        italiano
+      </option>
+      <option value="/intl/ja/starwars/">
+        日本語
+      </option>
+      <option value="/intl/ko/starwars/">
+        한국어
+      </option>
+      <option value="/intl/lv/starwars/">
+        latviešu
+      </option>
+      <option value="/intl/no/starwars/">
+        norsk bokmål (Norge)
+      </option>
+      <option value="/intl/pl/starwars/">
+        polski
+      </option>
+      <option value="/intl/pt-BR/starwars/">
+        português (Brasil)
+      </option>
+      <option value="/intl/pt-PT/starwars/">
+        português (Portugal)
+      </option>
+      <option value="/intl/ro/starwars/">
+        română
+      </option>
+      <option value="/intl/ru/starwars/">
+        русский
+      </option>
+      <option value="/intl/es/starwars/">
+        español
+      </option>
+      <option value="/intl/es-419/starwars/">
+        español (Latinoamérica)
+      </option>
+      <option value="/intl/sv/starwars/">
+        svenska
+      </option>
+      <option value="/intl/th/starwars/">
+        ไทย
+      </option>
+      <option value="/intl/tr/starwars/">
+        Türkçe
+      </option>
+</select>
+
+            <div class="select__arrow">|</div>
+          </div>
+        </div>
+        <div class="footer__column text-center">
+          <div class="footer__share">
+            <ul class="share">
+    <li class="share__element share__element--big share--gplus">
+      <a href="#" share="gplus" title="Share on Google+" data-g-event="social" data-g-action="share-intent:gplus" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="25.73" height="16" viewBox="302.21 393.45 25.73 16"><path fill="#FFF" d="M325.058 397.558h-2.163v2.883h-2.883v2.02h2.883v2.883h2.163v-2.883h2.883v-2.09h-2.882v-2.812zm-14.848 2.234v3.243h4.325c-.29 1.874-1.946 3.243-4.325 3.243-2.595 0-4.756-2.234-4.756-4.83 0-2.593 2.09-4.827 4.756-4.827 1.226 0 2.234.36 3.1 1.226l2.307-2.306c-1.442-1.297-3.244-2.09-5.406-2.09-4.395 0-8 3.604-8 8s3.605 8 8 8c4.686 0 7.713-3.314 7.713-7.855 0-.576-.072-1.225-.144-1.802h-7.57z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--facebook">
+      <a href="#" share="facebook" title="Share on Facebook" data-g-event="social" data-g-action="share-intent:facebook" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="8.31" height="16" viewBox="301.845 388 8.31 16"><path fill="#FFF" d="M307.238 404v-7.3h2.45l.367-2.844h-2.817v-1.815c0-.822.23-1.383 1.41-1.383h1.507v-2.546c-.262-.03-1.153-.11-2.196-.11-2.17 0-3.657 1.325-3.657 3.76v2.1h-2.458v2.844h2.458V404h2.935z"/></svg>      </a>
+    </li>
+    <li class="share__element share__element--big share--twitter">
+      <a href="#" share="twitter" title="Share on Twitter" text="app.social.twitter" data-g-event="social" data-g-action="share-intent:twitter" data-g-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="19.69" height="16" viewBox="423.89 491.854 19.69 16"><path fill="#FFF" d="M443.58 493.747c-.725.322-1.502.538-2.32.637.834-.5 1.475-1.29 1.775-2.234-.78.464-1.643.8-2.565.982-.736-.787-1.786-1.277-2.948-1.277-2.23 0-4.04 1.81-4.04 4.04 0 .314.036.623.105.918-3.356-.168-6.333-1.776-8.325-4.22-.348.595-.547 1.29-.547 2.03 0 1.4.713 2.637 1.798 3.362-.664-.02-1.286-.204-1.83-.507v.052c0 1.957 1.39 3.59 3.24 3.96-.34.093-.695.144-1.064.144-.263 0-.516-.027-.763-.073.515 1.605 2.006 2.773 3.772 2.806-1.382 1.084-3.122 1.73-5.017 1.73-.326 0-.647-.02-.964-.056 1.786 1.145 3.908 1.814 6.19 1.814 7.43 0 11.493-6.155 11.493-11.493 0-.176-.005-.348-.014-.522.793-.568 1.48-1.28 2.02-2.09z"/></svg>      </a>
+    </li>
+  </ul>
+          </div>
+        </div>
+      <nav class="footer__column footer__links">
+        <ul class="footer__links__list">
+            <li class="footer__link"><a href="/starwars/faq/" target="_blank">FAQ</a></li>
+            <li class="footer__link"><a href="https://www.google.com/intl/en/policies/" target="_blank">Privacy & Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__section footer__section--bottom">
+      <div class="footer__logos footer__column">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_112x36dp.png"
+             srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_112x36dp.png 1x, https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_112x36dp.png 2x" alt="Google">
+        <div class="film-title">
+          <img class="star-wars-logo hide-lap-up hide-desk-up" width="116" height="52" src="/starwars/static/images/brand-logos/star-wars-tfa.png" alt="Star Wars The Force Awakens">
+          <div class="footer__release-date hide-lap-up"> In Theaters December </div>
+        </div>
+      </div>
+      <div class="footer__copies text-center footer__column">
+        <span class="footer__copyright footer__copyright--rate">
+          <img class="footer__rating" alt="Rated PG-13: Parents strongly cautioned – some material may be inappropriate for children under 13" src="/starwars/static/0a52f8abb8e7720749ad97f5164d0b0c/images/sections/footer/rating.png" srcset="/starwars/static/2e1903e811eb99944901bc6b63d90376/images/sections/footer/rating-2x.png 2x"/>
+        </span>
+        <span class="footer__copyright">
+          © and TM 2015 Lucasfilm Ltd. All rights reserved.<br>
+            iPhone, iPad, and Mac are registered trademarks of Apple Inc.<br>
+            Windows is either a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.
+        </span>
+      </div>
+      <div class="footer__logos hide-tab-down footer__column align-content-end">
+        <div class="film-title">
+          <img class="star-wars-logo" width="116" height="52" src="/starwars/static/images/brand-logos/star-wars-tfa.png" alt="Star Wars The Force Awakens">
+          <div class="footer__release-date">In Theaters December</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+      <script>
+        window.LOGIN_URL = "https://accounts.google.com/ServiceLogin?continue=https%3A//www.google.com/starwars/%23/%3Fintro%3Dfalse";
+        window.STRINGS = {
+          TWITTER: {
+            NO_SIDE: 'Dark%20side%20or%20light%20side%3F%20Choose%20your%20side%20of%20the%20Force%20to%20transform%20your%20Google%20experience.%20%20%23ChooseYourSide',
+            LIGHT_SIDE: 'I%20chose%20the%20light%20side.%20Which%20path%20will%20you%20choose%3F%20%20%23ChooseYourSide',
+            DARK_SIDE: 'I%20chose%20the%20dark%20side.%20Which%20path%20will%20you%20choose%3F%20%20%23ChooseYourSide'
+          },
+          TOAST_MESSAGES: {
+            httpErrorFirst: 'Sorry, we encountered a problem. Please try again.',
+            httpErrorSecond: 'Sorry, we encountered a problem. Please try later.',
+            optOutSuccess: 'Your regular Google experience has been restored.'
+          },
+  LOGIN: {
+    JOIN: "Join",
+    SIGN_TO_JOIN: "Sign in to join"
+  },
+  SIDE_LIGHT: {
+    TITLE: "Light side",
+    STAY: "Stay on light side"
+  },
+  SIDE_DARK: {
+    TITLE: "Dark side",
+    STAY: "Stay on dark side"
+  }
+        };
+
+        window.OVERLAYS = {
+          'DARK': "/starwars/static/211bf41c8fd5520c011f49d05cf5453b/images/elements/red-saber-overlay.png",
+          'LIGHT': "/starwars/static/29b6e622ecc235139d12765cadbd6b6a/images/elements/blue-saber-overlay.png",
+        };
+      </script>
+
+      <script>
+        !function(){if("performance"in window==0&&(window.performance={}),Date.now=Date.now||function(){return(new Date).getTime()},"now"in window.performance==0){var a=Date.now();performance.timing&&performance.timing.navigationStart&&(a=performance.timing.navigationStart),window.performance.now=function(){return Date.now()-a}}}();
+      </script>
+
+      <script>
+        !function(){"use strict";var c,a=0,b=["ms","moz","webkit","o"];for(c=0;c<b.length&&!window.requestAnimationFrame;++c)window.requestAnimationFrame=window[b[c]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[b[c]+"CancelAnimationFrame"]||window[b[c]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(b,c){var d=(new Date).getTime(),e=Math.max(0,16-(d-a)),f=window.setTimeout(function(){b(d+e)},e);return a=d+e,f}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){window.clearTimeout(a)})}();
+      </script>
+
+
+
+
+
+
+      <script>
+        window.__p = true;
+        requestAnimationFrame(function(){function e(a){var b=document.createElement("link");b.rel="stylesheet";b.href=a;document.head.appendChild(b);return b}function d(){if(window.beyond&&window.TweenMax&&window.TimelineMax&&!f){f=!0;window.beyond.init();var a=document.createElement("script");a.src="https://apis.google.com/js/client.js?onload=onLoadCallback";document.head.appendChild(a)}}function g(){for(var a;b[0]&&"loaded"==b[0].readyState;)a=b.shift(),a.onreadystatechange=null,c.parentNode.insertBefore(a,c),d()}var h=["https://www.gstatic.com/external_hosted/modernizr/csstransforms3d_csstransitions_search_webp_addtest_shiv_dontmin/modernizr-custom.js", "https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js", "https://www.gstatic.com/external_hosted/gsap/v1_18_0/TimelineMax.min.js", "/starwars/static/dfc0a75de7636d3746d19a23f6cc02e7/js/vendor.min.js", "/starwars/static/655bac08045c6efa2c64c8a2e71f57ff/js/home.min.js"],b=[],c=document.scripts[0],f=!1;["https://fonts.googleapis.com/css?family=Roboto:400,700"].forEach(e);e("/starwars/static/e319c652abf7170a8a15553a2cef1f03/css/main.css").onload=function(){for(;src=h.shift();){var a;"async"in c?(a=document.createElement("script"),a.async=!1,a.src=src,a.onload=d,document.head.appendChild(a)):c.readyState?(a=document.createElement("script"),b.push(a),a.onreadystatechange=g,a.src=src):(document.write('<script src="'+src+'" defer>\x3c/script>'),
+          d())}}});
+        </script>
+  </body>
+</html>
